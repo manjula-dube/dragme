@@ -1,0 +1,2806 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'serve-static' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/manjula/workspace/drag_and_drop/package.json
+5 warn package.json manjula@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/bower/package.json
+7 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/bower-requirejs/package.json
+8 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/connect-livereload/package.json
+9 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt/package.json
+10 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-angular-builder/package.json
+11 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-contrib-connect/package.json
+12 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-contrib-cssmin/package.json
+13 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-contrib-sass/package.json
+14 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-contrib-uglify/package.json
+15 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-contrib-watch/package.json
+16 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-open/package.json
+17 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/grunt-sass/package.json
+18 verbose installManyTop reading scoped package data from /Users/manjula/workspace/drag_and_drop/node_modules/node-sass/package.json
+19 info package.json grunt-open@0.2.3 No license field.
+20 info package.json grunt-angular-builder@1.0.0-beta3 No license field.
+21 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/package.json
+22 silly cache add args [ 'serve-static', null ]
+23 verbose cache add spec serve-static
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'serve-static',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'serve-static',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 silly addNamed serve-static@latest
+26 verbose addNamed "latest" is being treated as a dist-tag for serve-static
+27 info addNameTag [ 'serve-static', 'latest' ]
+28 silly mapToRegistry name serve-static
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'serve-static',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'serve-static',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/serve-static
+33 verbose addNameTag registry:https://registry.npmjs.org/serve-static not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/serve-static
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 11:36:07 AM
+37 verbose request id c055afbc2950526d
+38 verbose etag "768CZL652S9PLY2JS1SZ7Q3TF"
+39 http request GET https://registry.npmjs.org/serve-static
+40 http 304 https://registry.npmjs.org/serve-static
+41 verbose headers { date: 'Wed, 17 Aug 2016 06:06:11 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   etag: '"768CZL652S9PLY2JS1SZ7Q3TF"',
+41 verbose headers   age: '19',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '1',
+41 verbose headers   'x-timer': 'S1471413971.621194,VS0,VE0',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Wed, 17 Aug 2016 06:06:11 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     etag: '"768CZL652S9PLY2JS1SZ7Q3TF"',
+42 silly get     age: '19',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-sin6926-SIN',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1471413971.621194,VS0,VE0',
+42 silly get     vary: 'Accept-Encoding' } ]
+43 verbose etag https://registry.npmjs.org/serve-static from cache
+44 verbose get saving serve-static to /Users/manjula/.npm/registry.npmjs.org/serve-static/.cache.json
+45 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+46 silly addNameTag next cb for serve-static with tag latest
+47 silly addNamed serve-static@1.11.1
+48 verbose addNamed "1.11.1" is a plain semver version for serve-static
+49 silly cache afterAdd serve-static@1.11.1
+50 verbose afterAdd /Users/manjula/.npm/serve-static/1.11.1/package/package.json not in flight; writing
+51 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+52 verbose afterAdd /Users/manjula/.npm/serve-static/1.11.1/package/package.json written
+53 silly install resolved [ { name: 'serve-static',
+53 silly install resolved     description: 'Serve static files',
+53 silly install resolved     version: '1.11.1',
+53 silly install resolved     author:
+53 silly install resolved      { name: 'Douglas Christopher Wilson',
+53 silly install resolved        email: 'doug@somethingdoug.com' },
+53 silly install resolved     license: 'MIT',
+53 silly install resolved     repository:
+53 silly install resolved      { type: 'git',
+53 silly install resolved        url: 'git+https://github.com/expressjs/serve-static.git' },
+53 silly install resolved     dependencies:
+53 silly install resolved      { encodeurl: '~1.0.1',
+53 silly install resolved        'escape-html': '~1.0.3',
+53 silly install resolved        parseurl: '~1.3.1',
+53 silly install resolved        send: '0.14.1' },
+53 silly install resolved     devDependencies:
+53 silly install resolved      { eslint: '2.11.1',
+53 silly install resolved        'eslint-config-standard': '5.3.1',
+53 silly install resolved        'eslint-plugin-promise': '1.3.2',
+53 silly install resolved        'eslint-plugin-standard': '1.3.2',
+53 silly install resolved        istanbul: '0.4.3',
+53 silly install resolved        mocha: '2.5.3',
+53 silly install resolved        supertest: '1.1.0' },
+53 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+53 silly install resolved     engines: { node: '>= 0.8.0' },
+53 silly install resolved     scripts:
+53 silly install resolved      { lint: 'eslint **/*.js',
+53 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+53 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+53 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/' },
+53 silly install resolved     gitHead: 'b3a24df138ea2f2c43afcbee0dcce5badf4c78ae',
+53 silly install resolved     bugs: { url: 'https://github.com/expressjs/serve-static/issues' },
+53 silly install resolved     homepage: 'https://github.com/expressjs/serve-static#readme',
+53 silly install resolved     _id: 'serve-static@1.11.1',
+53 silly install resolved     _shasum: 'd6cce7693505f733c759de57befc1af76c0f0805',
+53 silly install resolved     _from: 'serve-static@latest',
+53 silly install resolved     _npmVersion: '2.15.1',
+53 silly install resolved     _nodeVersion: '4.4.3',
+53 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+53 silly install resolved     dist:
+53 silly install resolved      { shasum: 'd6cce7693505f733c759de57befc1af76c0f0805',
+53 silly install resolved        tarball: 'https://registry.npmjs.org/serve-static/-/serve-static-1.11.1.tgz' },
+53 silly install resolved     maintainers: [ [Object] ],
+53 silly install resolved     _npmOperationalInternal:
+53 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+53 silly install resolved        tmp: 'tmp/serve-static-1.11.1.tgz_1465608601758_0.0030737747438251972' },
+53 silly install resolved     directories: {},
+53 silly install resolved     _resolved: 'https://registry.npmjs.org/serve-static/-/serve-static-1.11.1.tgz',
+53 silly install resolved     readme: 'ERROR: No README data found!' } ]
+54 info install serve-static@1.11.1 into /Users/manjula/workspace/drag_and_drop
+55 info installOne serve-static@1.11.1
+56 verbose installOne of serve-static to /Users/manjula/workspace/drag_and_drop not in flight; installing
+57 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+58 verbose lock using /Users/manjula/.npm/_locks/serve-static-7ab4eb64f412f593.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+59 silly install write writing serve-static 1.11.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+60 verbose unbuild node_modules/serve-static
+61 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static is being purged from base /Users/manjula/workspace/drag_and_drop
+62 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+63 verbose tar unpack /Users/manjula/.npm/serve-static/1.11.1/package.tgz
+64 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+65 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static is being purged
+66 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+72 silly gunzTarPerm extractEntry LICENSE
+73 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+74 silly gunzTarPerm extractEntry index.js
+75 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry HISTORY.md
+77 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+78 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/package.json
+79 info preinstall serve-static@1.11.1
+80 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/package.json
+81 silly prepareForInstallMany adding encodeurl@~1.0.1 from serve-static dependencies
+82 silly prepareForInstallMany adding escape-html@~1.0.3 from serve-static dependencies
+83 silly prepareForInstallMany adding parseurl@~1.3.1 from serve-static dependencies
+84 silly prepareForInstallMany adding send@0.14.1 from serve-static dependencies
+85 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/package.json
+86 silly cache add args [ 'encodeurl@~1.0.1', null ]
+87 verbose cache add spec encodeurl@~1.0.1
+88 silly cache add args [ 'escape-html@~1.0.3', null ]
+89 verbose cache add spec escape-html@~1.0.3
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'encodeurl@~1.0.1',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'encodeurl',
+90 silly cache add   rawSpec: '~1.0.1',
+90 silly cache add   spec: '>=1.0.1 <1.1.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed encodeurl@>=1.0.1 <1.1.0
+92 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for encodeurl
+93 silly addNameRange { name: 'encodeurl', range: '>=1.0.1 <1.1.0', hasData: false }
+94 silly mapToRegistry name encodeurl
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'encodeurl',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   name: 'encodeurl',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/encodeurl
+99 verbose addNameRange registry:https://registry.npmjs.org/encodeurl not in flight; fetching
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'escape-html@~1.0.3',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'escape-html',
+100 silly cache add   rawSpec: '~1.0.3',
+100 silly cache add   spec: '>=1.0.3 <1.1.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed escape-html@>=1.0.3 <1.1.0
+102 verbose addNamed ">=1.0.3 <1.1.0" is a valid semver range for escape-html
+103 silly addNameRange { name: 'escape-html', range: '>=1.0.3 <1.1.0', hasData: false }
+104 silly mapToRegistry name escape-html
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'escape-html',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   name: 'escape-html',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/escape-html
+109 verbose addNameRange registry:https://registry.npmjs.org/escape-html not in flight; fetching
+110 silly cache add args [ 'parseurl@~1.3.1', null ]
+111 verbose cache add spec parseurl@~1.3.1
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'parseurl@~1.3.1',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'parseurl',
+112 silly cache add   rawSpec: '~1.3.1',
+112 silly cache add   spec: '>=1.3.1 <1.4.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed parseurl@>=1.3.1 <1.4.0
+114 verbose addNamed ">=1.3.1 <1.4.0" is a valid semver range for parseurl
+115 silly addNameRange { name: 'parseurl', range: '>=1.3.1 <1.4.0', hasData: false }
+116 silly mapToRegistry name parseurl
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'parseurl',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   name: 'parseurl',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/parseurl
+121 verbose addNameRange registry:https://registry.npmjs.org/parseurl not in flight; fetching
+122 silly cache add args [ 'send@0.14.1', null ]
+123 verbose cache add spec send@0.14.1
+124 silly cache add parsed spec Result {
+124 silly cache add   raw: 'send@0.14.1',
+124 silly cache add   scope: null,
+124 silly cache add   name: 'send',
+124 silly cache add   rawSpec: '0.14.1',
+124 silly cache add   spec: '0.14.1',
+124 silly cache add   type: 'version' }
+125 silly addNamed send@0.14.1
+126 verbose addNamed "0.14.1" is a plain semver version for send
+127 silly mapToRegistry name send
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry data Result {
+130 silly mapToRegistry   raw: 'send',
+130 silly mapToRegistry   scope: null,
+130 silly mapToRegistry   name: 'send',
+130 silly mapToRegistry   rawSpec: '',
+130 silly mapToRegistry   spec: 'latest',
+130 silly mapToRegistry   type: 'tag' }
+131 silly mapToRegistry uri https://registry.npmjs.org/send
+132 verbose addNameVersion registry:https://registry.npmjs.org/send not in flight; fetching
+133 verbose request uri https://registry.npmjs.org/encodeurl
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 11:36:11 AM
+136 verbose etag "4PM2KDHKHQIPW82CXVH2AGZT8"
+137 http request GET https://registry.npmjs.org/encodeurl
+138 verbose request uri https://registry.npmjs.org/parseurl
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 11:36:11 AM
+141 verbose etag "44JB0QP7Z09UBDYL3IXSN24VX"
+142 http request GET https://registry.npmjs.org/parseurl
+143 verbose request uri https://registry.npmjs.org/escape-html
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 11:36:11 AM
+146 verbose etag "6HSDZUXZMO4PRGXNZ1M1M7UQT"
+147 http request GET https://registry.npmjs.org/escape-html
+148 verbose request uri https://registry.npmjs.org/send
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 11:36:11 AM
+151 verbose etag "4NDQZI28D7ZVNK5G76M56TIO7"
+152 http request GET https://registry.npmjs.org/send
+153 http 304 https://registry.npmjs.org/encodeurl
+154 verbose headers { date: 'Wed, 17 Aug 2016 06:06:12 GMT',
+154 verbose headers   via: '1.1 varnish',
+154 verbose headers   'cache-control': 'max-age=300',
+154 verbose headers   etag: '"4PM2KDHKHQIPW82CXVH2AGZT8"',
+154 verbose headers   age: '293',
+154 verbose headers   connection: 'keep-alive',
+154 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+154 verbose headers   'x-cache': 'HIT',
+154 verbose headers   'x-cache-hits': '16',
+154 verbose headers   'x-timer': 'S1471413972.308125,VS0,VE0',
+154 verbose headers   vary: 'Accept-Encoding' }
+155 silly get cb [ 304,
+155 silly get   { date: 'Wed, 17 Aug 2016 06:06:12 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     'cache-control': 'max-age=300',
+155 silly get     etag: '"4PM2KDHKHQIPW82CXVH2AGZT8"',
+155 silly get     age: '293',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-sin6926-SIN',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '16',
+155 silly get     'x-timer': 'S1471413972.308125,VS0,VE0',
+155 silly get     vary: 'Accept-Encoding' } ]
+156 verbose etag https://registry.npmjs.org/encodeurl from cache
+157 verbose get saving encodeurl to /Users/manjula/.npm/registry.npmjs.org/encodeurl/.cache.json
+158 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+159 silly addNameRange number 2 { name: 'encodeurl', range: '>=1.0.1 <1.1.0', hasData: true }
+160 silly addNameRange versions [ 'encodeurl', [ '1.0.0', '1.0.1' ] ]
+161 silly addNamed encodeurl@1.0.1
+162 verbose addNamed "1.0.1" is a plain semver version for encodeurl
+163 silly cache afterAdd encodeurl@1.0.1
+164 verbose afterAdd /Users/manjula/.npm/encodeurl/1.0.1/package/package.json not in flight; writing
+165 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+166 verbose afterAdd /Users/manjula/.npm/encodeurl/1.0.1/package/package.json written
+167 http 304 https://registry.npmjs.org/parseurl
+168 verbose headers { date: 'Wed, 17 Aug 2016 06:06:14 GMT',
+168 verbose headers   via: '1.1 varnish',
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   etag: '"44JB0QP7Z09UBDYL3IXSN24VX"',
+168 verbose headers   age: '61',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+168 verbose headers   'x-cache': 'HIT',
+168 verbose headers   'x-cache-hits': '6',
+168 verbose headers   'x-timer': 'S1471413974.834298,VS0,VE0',
+168 verbose headers   vary: 'Accept-Encoding' }
+169 silly get cb [ 304,
+169 silly get   { date: 'Wed, 17 Aug 2016 06:06:14 GMT',
+169 silly get     via: '1.1 varnish',
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     etag: '"44JB0QP7Z09UBDYL3IXSN24VX"',
+169 silly get     age: '61',
+169 silly get     connection: 'keep-alive',
+169 silly get     'x-served-by': 'cache-sin6924-SIN',
+169 silly get     'x-cache': 'HIT',
+169 silly get     'x-cache-hits': '6',
+169 silly get     'x-timer': 'S1471413974.834298,VS0,VE0',
+169 silly get     vary: 'Accept-Encoding' } ]
+170 verbose etag https://registry.npmjs.org/parseurl from cache
+171 verbose get saving parseurl to /Users/manjula/.npm/registry.npmjs.org/parseurl/.cache.json
+172 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+173 http 304 https://registry.npmjs.org/send
+174 verbose headers { date: 'Wed, 17 Aug 2016 06:06:14 GMT',
+174 verbose headers   via: '1.1 varnish',
+174 verbose headers   'cache-control': 'max-age=300',
+174 verbose headers   etag: '"4NDQZI28D7ZVNK5G76M56TIO7"',
+174 verbose headers   age: '55',
+174 verbose headers   connection: 'keep-alive',
+174 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+174 verbose headers   'x-cache': 'HIT',
+174 verbose headers   'x-cache-hits': '6',
+174 verbose headers   'x-timer': 'S1471413974.846209,VS0,VE0',
+174 verbose headers   vary: 'Accept-Encoding' }
+175 silly get cb [ 304,
+175 silly get   { date: 'Wed, 17 Aug 2016 06:06:14 GMT',
+175 silly get     via: '1.1 varnish',
+175 silly get     'cache-control': 'max-age=300',
+175 silly get     etag: '"4NDQZI28D7ZVNK5G76M56TIO7"',
+175 silly get     age: '55',
+175 silly get     connection: 'keep-alive',
+175 silly get     'x-served-by': 'cache-sin6921-SIN',
+175 silly get     'x-cache': 'HIT',
+175 silly get     'x-cache-hits': '6',
+175 silly get     'x-timer': 'S1471413974.846209,VS0,VE0',
+175 silly get     vary: 'Accept-Encoding' } ]
+176 verbose etag https://registry.npmjs.org/send from cache
+177 verbose get saving send to /Users/manjula/.npm/registry.npmjs.org/send/.cache.json
+178 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+179 silly addNameRange number 2 { name: 'parseurl', range: '>=1.3.1 <1.4.0', hasData: true }
+180 silly addNameRange versions [ 'parseurl',
+180 silly addNameRange   [ '1.0.0',
+180 silly addNameRange     '1.0.1',
+180 silly addNameRange     '1.1.0',
+180 silly addNameRange     '1.1.1',
+180 silly addNameRange     '1.1.2',
+180 silly addNameRange     '1.1.3',
+180 silly addNameRange     '1.2.0',
+180 silly addNameRange     '1.3.0',
+180 silly addNameRange     '1.3.1' ] ]
+181 silly addNamed parseurl@1.3.1
+182 verbose addNamed "1.3.1" is a plain semver version for parseurl
+183 silly cache afterAdd parseurl@1.3.1
+184 verbose afterAdd /Users/manjula/.npm/parseurl/1.3.1/package/package.json not in flight; writing
+185 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+186 silly cache afterAdd send@0.14.1
+187 verbose afterAdd /Users/manjula/.npm/send/0.14.1/package/package.json not in flight; writing
+188 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+189 verbose afterAdd /Users/manjula/.npm/send/0.14.1/package/package.json written
+190 verbose afterAdd /Users/manjula/.npm/parseurl/1.3.1/package/package.json written
+191 http 304 https://registry.npmjs.org/escape-html
+192 verbose headers { date: 'Wed, 17 Aug 2016 06:06:16 GMT',
+192 verbose headers   via: '1.1 varnish',
+192 verbose headers   'cache-control': 'max-age=300',
+192 verbose headers   etag: '"6HSDZUXZMO4PRGXNZ1M1M7UQT"',
+192 verbose headers   age: '193',
+192 verbose headers   connection: 'keep-alive',
+192 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+192 verbose headers   'x-cache': 'HIT',
+192 verbose headers   'x-cache-hits': '15',
+192 verbose headers   'x-timer': 'S1471413976.195504,VS0,VE0',
+192 verbose headers   vary: 'Accept-Encoding' }
+193 silly get cb [ 304,
+193 silly get   { date: 'Wed, 17 Aug 2016 06:06:16 GMT',
+193 silly get     via: '1.1 varnish',
+193 silly get     'cache-control': 'max-age=300',
+193 silly get     etag: '"6HSDZUXZMO4PRGXNZ1M1M7UQT"',
+193 silly get     age: '193',
+193 silly get     connection: 'keep-alive',
+193 silly get     'x-served-by': 'cache-sin6927-SIN',
+193 silly get     'x-cache': 'HIT',
+193 silly get     'x-cache-hits': '15',
+193 silly get     'x-timer': 'S1471413976.195504,VS0,VE0',
+193 silly get     vary: 'Accept-Encoding' } ]
+194 verbose etag https://registry.npmjs.org/escape-html from cache
+195 verbose get saving escape-html to /Users/manjula/.npm/registry.npmjs.org/escape-html/.cache.json
+196 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+197 silly addNameRange number 2 { name: 'escape-html', range: '>=1.0.3 <1.1.0', hasData: true }
+198 silly addNameRange versions [ 'escape-html',
+198 silly addNameRange   [ '0.0.1', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+199 silly addNamed escape-html@1.0.3
+200 verbose addNamed "1.0.3" is a plain semver version for escape-html
+201 silly cache afterAdd escape-html@1.0.3
+202 verbose afterAdd /Users/manjula/.npm/escape-html/1.0.3/package/package.json not in flight; writing
+203 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+204 verbose afterAdd /Users/manjula/.npm/escape-html/1.0.3/package/package.json written
+205 silly install resolved [ { name: 'encodeurl',
+205 silly install resolved     description: 'Encode a URL to a percent-encoded form, excluding already-encoded sequences',
+205 silly install resolved     version: '1.0.1',
+205 silly install resolved     contributors: [ [Object] ],
+205 silly install resolved     license: 'MIT',
+205 silly install resolved     keywords: [ 'encode', 'encodeurl', 'url' ],
+205 silly install resolved     repository:
+205 silly install resolved      { type: 'git',
+205 silly install resolved        url: 'git+https://github.com/pillarjs/encodeurl.git' },
+205 silly install resolved     devDependencies:
+205 silly install resolved      { eslint: '2.11.1',
+205 silly install resolved        'eslint-config-standard': '5.3.1',
+205 silly install resolved        'eslint-plugin-promise': '1.3.2',
+205 silly install resolved        'eslint-plugin-standard': '1.3.2',
+205 silly install resolved        istanbul: '0.4.3',
+205 silly install resolved        mocha: '2.5.3' },
+205 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+205 silly install resolved     engines: { node: '>= 0.8' },
+205 silly install resolved     scripts:
+205 silly install resolved      { lint: 'eslint **/*.js',
+205 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+205 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+205 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+205 silly install resolved     gitHead: '39ed0c235fed4cea7d012038fd6bb0480561d226',
+205 silly install resolved     bugs: { url: 'https://github.com/pillarjs/encodeurl/issues' },
+205 silly install resolved     homepage: 'https://github.com/pillarjs/encodeurl#readme',
+205 silly install resolved     _id: 'encodeurl@1.0.1',
+205 silly install resolved     _shasum: '79e3d58655346909fe6f0f45a5de68103b294d20',
+205 silly install resolved     _from: 'encodeurl@>=1.0.1 <1.1.0',
+205 silly install resolved     _npmVersion: '2.15.1',
+205 silly install resolved     _nodeVersion: '4.4.3',
+205 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+205 silly install resolved     dist:
+205 silly install resolved      { shasum: '79e3d58655346909fe6f0f45a5de68103b294d20',
+205 silly install resolved        tarball: 'https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.1.tgz' },
+205 silly install resolved     maintainers: [ [Object] ],
+205 silly install resolved     _npmOperationalInternal:
+205 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+205 silly install resolved        tmp: 'tmp/encodeurl-1.0.1.tgz_1465519736251_0.09314409433864057' },
+205 silly install resolved     directories: {},
+205 silly install resolved     _resolved: 'https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.1.tgz',
+205 silly install resolved     readme: 'ERROR: No README data found!' },
+205 silly install resolved   { name: 'send',
+205 silly install resolved     description: 'Better streaming static file server with Range and conditional-GET support',
+205 silly install resolved     version: '0.14.1',
+205 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+205 silly install resolved     contributors: [ [Object] ],
+205 silly install resolved     license: 'MIT',
+205 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/pillarjs/send.git' },
+205 silly install resolved     keywords: [ 'static', 'file', 'server' ],
+205 silly install resolved     dependencies:
+205 silly install resolved      { debug: '~2.2.0',
+205 silly install resolved        depd: '~1.1.0',
+205 silly install resolved        destroy: '~1.0.4',
+205 silly install resolved        encodeurl: '~1.0.1',
+205 silly install resolved        'escape-html': '~1.0.3',
+205 silly install resolved        etag: '~1.7.0',
+205 silly install resolved        fresh: '0.3.0',
+205 silly install resolved        'http-errors': '~1.5.0',
+205 silly install resolved        mime: '1.3.4',
+205 silly install resolved        ms: '0.7.1',
+205 silly install resolved        'on-finished': '~2.3.0',
+205 silly install resolved        'range-parser': '~1.2.0',
+205 silly install resolved        statuses: '~1.3.0' },
+205 silly install resolved     devDependencies:
+205 silly install resolved      { after: '0.8.1',
+205 silly install resolved        eslint: '2.11.1',
+205 silly install resolved        'eslint-config-standard': '5.3.1',
+205 silly install resolved        'eslint-plugin-promise': '1.3.1',
+205 silly install resolved        'eslint-plugin-standard': '1.3.2',
+205 silly install resolved        istanbul: '0.4.3',
+205 silly install resolved        mocha: '2.5.3',
+205 silly install resolved        supertest: '1.1.0' },
+205 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+205 silly install resolved     engines: { node: '>= 0.8.0' },
+205 silly install resolved     scripts:
+205 silly install resolved      { lint: 'eslint **/*.js',
+205 silly install resolved        test: 'mocha --check-leaks --reporter spec --bail',
+205 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec',
+205 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot' },
+205 silly install resolved     gitHead: 'd6dd3b91bbb73ad89f1398fa227b200db9bff037',
+205 silly install resolved     bugs: { url: 'https://github.com/pillarjs/send/issues' },
+205 silly install resolved     homepage: 'https://github.com/pillarjs/send#readme',
+205 silly install resolved     _id: 'send@0.14.1',
+205 silly install resolved     _shasum: 'a954984325392f51532a7760760e459598c89f7a',
+205 silly install resolved     _from: 'send@0.14.1',
+205 silly install resolved     _npmVersion: '2.15.1',
+205 silly install resolved     _nodeVersion: '4.4.3',
+205 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+205 silly install resolved     dist:
+205 silly install resolved      { shasum: 'a954984325392f51532a7760760e459598c89f7a',
+205 silly install resolved        tarball: 'https://registry.npmjs.org/send/-/send-0.14.1.tgz' },
+205 silly install resolved     maintainers: [ [Object] ],
+205 silly install resolved     _npmOperationalInternal:
+205 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+205 silly install resolved        tmp: 'tmp/send-0.14.1.tgz_1465535036412_0.3431496580597013' },
+205 silly install resolved     directories: {},
+205 silly install resolved     _resolved: 'https://registry.npmjs.org/send/-/send-0.14.1.tgz',
+205 silly install resolved     readme: 'ERROR: No README data found!' },
+205 silly install resolved   { name: 'parseurl',
+205 silly install resolved     description: 'parse a url with memoization',
+205 silly install resolved     version: '1.3.1',
+205 silly install resolved     author:
+205 silly install resolved      { name: 'Jonathan Ong',
+205 silly install resolved        email: 'me@jongleberry.com',
+205 silly install resolved        url: 'http://jongleberry.com' },
+205 silly install resolved     contributors: [ [Object] ],
+205 silly install resolved     repository:
+205 silly install resolved      { type: 'git',
+205 silly install resolved        url: 'git+https://github.com/pillarjs/parseurl.git' },
+205 silly install resolved     license: 'MIT',
+205 silly install resolved     devDependencies:
+205 silly install resolved      { benchmark: '2.0.0',
+205 silly install resolved        'beautify-benchmark': '0.2.4',
+205 silly install resolved        'fast-url-parser': '1.1.3',
+205 silly install resolved        istanbul: '0.4.2',
+205 silly install resolved        mocha: '~1.21.5' },
+205 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+205 silly install resolved     engines: { node: '>= 0.8' },
+205 silly install resolved     scripts:
+205 silly install resolved      { bench: 'node benchmark/index.js',
+205 silly install resolved        test: 'mocha --check-leaks --bail --reporter spec test/',
+205 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/',
+205 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/' },
+205 silly install resolved     gitHead: '6d22d376d75b927ab2b5347ce3a1d6735133dd43',
+205 silly install resolved     bugs: { url: 'https://github.com/pillarjs/parseurl/issues' },
+205 silly install resolved     homepage: 'https://github.com/pillarjs/parseurl',
+205 silly install resolved     _id: 'parseurl@1.3.1',
+205 silly install resolved     _shasum: 'c8ab8c9223ba34888aa64a297b28853bec18da56',
+205 silly install resolved     _from: 'parseurl@>=1.3.1 <1.4.0',
+205 silly install resolved     _npmVersion: '1.4.28',
+205 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+205 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+205 silly install resolved     dist:
+205 silly install resolved      { shasum: 'c8ab8c9223ba34888aa64a297b28853bec18da56',
+205 silly install resolved        tarball: 'https://registry.npmjs.org/parseurl/-/parseurl-1.3.1.tgz' },
+205 silly install resolved     directories: {},
+205 silly install resolved     _resolved: 'https://registry.npmjs.org/parseurl/-/parseurl-1.3.1.tgz',
+205 silly install resolved     readme: 'ERROR: No README data found!' },
+205 silly install resolved   { name: 'escape-html',
+205 silly install resolved     description: 'Escape string for use in HTML',
+205 silly install resolved     version: '1.0.3',
+205 silly install resolved     license: 'MIT',
+205 silly install resolved     keywords: [ 'escape', 'html', 'utility' ],
+205 silly install resolved     repository:
+205 silly install resolved      { type: 'git',
+205 silly install resolved        url: 'git+https://github.com/component/escape-html.git' },
+205 silly install resolved     devDependencies: { benchmark: '1.0.0', 'beautify-benchmark': '0.2.4' },
+205 silly install resolved     files: [ 'LICENSE', 'Readme.md', 'index.js' ],
+205 silly install resolved     scripts: { bench: 'node benchmark/index.js' },
+205 silly install resolved     gitHead: '7ac2ea3977fcac3d4c5be8d2a037812820c65f28',
+205 silly install resolved     bugs: { url: 'https://github.com/component/escape-html/issues' },
+205 silly install resolved     homepage: 'https://github.com/component/escape-html',
+205 silly install resolved     _id: 'escape-html@1.0.3',
+205 silly install resolved     _shasum: '0258eae4d3d0c0974de1c169188ef0051d1d1988',
+205 silly install resolved     _from: 'escape-html@>=1.0.3 <1.1.0',
+205 silly install resolved     _npmVersion: '1.4.28',
+205 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+205 silly install resolved     maintainers: [ [Object], [Object] ],
+205 silly install resolved     dist:
+205 silly install resolved      { shasum: '0258eae4d3d0c0974de1c169188ef0051d1d1988',
+205 silly install resolved        tarball: 'https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz' },
+205 silly install resolved     directories: {},
+205 silly install resolved     _resolved: 'https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz',
+205 silly install resolved     readme: 'ERROR: No README data found!' } ]
+206 info install encodeurl@1.0.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+207 info install send@0.14.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+208 info install parseurl@1.3.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+209 info install escape-html@1.0.3 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+210 info installOne encodeurl@1.0.1
+211 verbose installOne of encodeurl to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static not in flight; installing
+212 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+213 info installOne send@0.14.1
+214 verbose installOne of send to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static not in flight; installing
+215 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+216 info installOne parseurl@1.3.1
+217 verbose installOne of parseurl to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static not in flight; installing
+218 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+219 info installOne escape-html@1.0.3
+220 verbose installOne of escape-html to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static not in flight; installing
+221 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+222 verbose lock using /Users/manjula/.npm/_locks/parseurl-0ac11f4505287ac7.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+223 verbose lock using /Users/manjula/.npm/_locks/send-cbca43e4a9a33e77.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+224 verbose lock using /Users/manjula/.npm/_locks/encodeurl-f3baf0d66ed91650.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+225 silly install write writing parseurl 1.3.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+226 silly install write writing send 0.14.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+227 silly install write writing encodeurl 1.0.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+228 verbose lock using /Users/manjula/.npm/_locks/escape-html-57fc74b3c6e048ee.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+229 silly install write writing escape-html 1.0.3 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+230 verbose unbuild node_modules/serve-static/node_modules/send
+231 verbose unbuild node_modules/serve-static/node_modules/parseurl
+232 verbose unbuild node_modules/serve-static/node_modules/encodeurl
+233 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send is being purged from base /Users/manjula/workspace/drag_and_drop
+234 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+235 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl is being purged from base /Users/manjula/workspace/drag_and_drop
+236 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+237 verbose unbuild node_modules/serve-static/node_modules/escape-html
+238 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl is being purged from base /Users/manjula/workspace/drag_and_drop
+239 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+240 verbose tar unpack /Users/manjula/.npm/send/0.14.1/package.tgz
+241 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+242 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send is being purged
+243 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+244 verbose tar unpack /Users/manjula/.npm/parseurl/1.3.1/package.tgz
+245 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+246 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl is being purged
+247 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+248 verbose tar unpack /Users/manjula/.npm/encodeurl/1.0.1/package.tgz
+249 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+250 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl is being purged
+251 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+252 silly gunzTarPerm modes [ '755', '644' ]
+253 silly gunzTarPerm modes [ '755', '644' ]
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html is being purged from base /Users/manjula/workspace/drag_and_drop
+256 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+257 verbose tar unpack /Users/manjula/.npm/escape-html/1.0.3/package.tgz
+258 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+259 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html is being purged
+260 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+261 silly gunzTarPerm modes [ '755', '644' ]
+262 silly gunzTarPerm extractEntry package.json
+263 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+264 silly gunzTarPerm extractEntry package.json
+265 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+266 silly gunzTarPerm extractEntry package.json
+267 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+268 silly gunzTarPerm extractEntry package.json
+269 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+270 silly gunzTarPerm extractEntry README.md
+271 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+272 silly gunzTarPerm extractEntry LICENSE
+273 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+274 silly gunzTarPerm extractEntry LICENSE
+275 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+276 silly gunzTarPerm extractEntry index.js
+277 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry README.md
+279 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+280 silly gunzTarPerm extractEntry LICENSE
+281 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+282 silly gunzTarPerm extractEntry README.md
+283 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+284 silly gunzTarPerm extractEntry LICENSE
+285 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+286 silly gunzTarPerm extractEntry index.js
+287 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry HISTORY.md
+289 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+290 silly gunzTarPerm extractEntry index.js
+291 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry HISTORY.md
+293 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+294 silly gunzTarPerm extractEntry Readme.md
+295 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+296 silly gunzTarPerm extractEntry index.js
+297 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+298 silly gunzTarPerm extractEntry HISTORY.md
+299 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+300 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html/package.json
+301 info preinstall escape-html@1.0.3
+302 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html/package.json
+303 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl/package.json
+304 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl/package.json
+305 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/package.json
+306 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html/package.json
+307 info preinstall parseurl@1.3.1
+308 info preinstall encodeurl@1.0.1
+309 info preinstall send@0.14.1
+310 silly install resolved []
+311 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+312 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+313 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl/package.json
+314 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl/package.json
+315 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/package.json
+316 info linkStuff escape-html@1.0.3
+317 silly linkStuff escape-html@1.0.3 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules as its parent node_modules
+318 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl/package.json
+319 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl/package.json
+320 silly prepareForInstallMany adding debug@~2.2.0 from send dependencies
+321 silly prepareForInstallMany adding depd@~1.1.0 from send dependencies
+322 silly prepareForInstallMany adding destroy@~1.0.4 from send dependencies
+323 silly prepareForInstallMany adding etag@~1.7.0 from send dependencies
+324 silly prepareForInstallMany adding fresh@0.3.0 from send dependencies
+325 silly prepareForInstallMany adding http-errors@~1.5.0 from send dependencies
+326 silly prepareForInstallMany adding mime@1.3.4 from send dependencies
+327 silly prepareForInstallMany adding ms@0.7.1 from send dependencies
+328 silly prepareForInstallMany adding on-finished@~2.3.0 from send dependencies
+329 silly prepareForInstallMany adding range-parser@~1.2.0 from send dependencies
+330 silly prepareForInstallMany adding statuses@~1.3.0 from send dependencies
+331 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/package.json
+332 silly install resolved []
+333 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+334 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+335 silly install resolved []
+336 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+337 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+338 silly cache add args [ 'destroy@~1.0.4', null ]
+339 verbose cache add spec destroy@~1.0.4
+340 silly cache add parsed spec Result {
+340 silly cache add   raw: 'destroy@~1.0.4',
+340 silly cache add   scope: null,
+340 silly cache add   name: 'destroy',
+340 silly cache add   rawSpec: '~1.0.4',
+340 silly cache add   spec: '>=1.0.4 <1.1.0',
+340 silly cache add   type: 'range' }
+341 silly addNamed destroy@>=1.0.4 <1.1.0
+342 verbose addNamed ">=1.0.4 <1.1.0" is a valid semver range for destroy
+343 silly addNameRange { name: 'destroy', range: '>=1.0.4 <1.1.0', hasData: false }
+344 silly mapToRegistry name destroy
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry https://registry.npmjs.org/
+347 silly mapToRegistry data Result {
+347 silly mapToRegistry   raw: 'destroy',
+347 silly mapToRegistry   scope: null,
+347 silly mapToRegistry   name: 'destroy',
+347 silly mapToRegistry   rawSpec: '',
+347 silly mapToRegistry   spec: 'latest',
+347 silly mapToRegistry   type: 'tag' }
+348 silly mapToRegistry uri https://registry.npmjs.org/destroy
+349 verbose addNameRange registry:https://registry.npmjs.org/destroy not in flight; fetching
+350 silly cache add args [ 'etag@~1.7.0', null ]
+351 verbose cache add spec etag@~1.7.0
+352 silly cache add parsed spec Result {
+352 silly cache add   raw: 'etag@~1.7.0',
+352 silly cache add   scope: null,
+352 silly cache add   name: 'etag',
+352 silly cache add   rawSpec: '~1.7.0',
+352 silly cache add   spec: '>=1.7.0 <1.8.0',
+352 silly cache add   type: 'range' }
+353 silly addNamed etag@>=1.7.0 <1.8.0
+354 verbose addNamed ">=1.7.0 <1.8.0" is a valid semver range for etag
+355 silly addNameRange { name: 'etag', range: '>=1.7.0 <1.8.0', hasData: false }
+356 silly mapToRegistry name etag
+357 silly mapToRegistry using default registry
+358 silly mapToRegistry registry https://registry.npmjs.org/
+359 silly mapToRegistry data Result {
+359 silly mapToRegistry   raw: 'etag',
+359 silly mapToRegistry   scope: null,
+359 silly mapToRegistry   name: 'etag',
+359 silly mapToRegistry   rawSpec: '',
+359 silly mapToRegistry   spec: 'latest',
+359 silly mapToRegistry   type: 'tag' }
+360 silly mapToRegistry uri https://registry.npmjs.org/etag
+361 verbose addNameRange registry:https://registry.npmjs.org/etag not in flight; fetching
+362 info linkStuff encodeurl@1.0.1
+363 silly linkStuff encodeurl@1.0.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules as its parent node_modules
+364 info linkStuff parseurl@1.3.1
+365 silly linkStuff parseurl@1.3.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules as its parent node_modules
+366 silly cache add args [ 'fresh@0.3.0', null ]
+367 verbose cache add spec fresh@0.3.0
+368 silly cache add parsed spec Result {
+368 silly cache add   raw: 'fresh@0.3.0',
+368 silly cache add   scope: null,
+368 silly cache add   name: 'fresh',
+368 silly cache add   rawSpec: '0.3.0',
+368 silly cache add   spec: '0.3.0',
+368 silly cache add   type: 'version' }
+369 silly addNamed fresh@0.3.0
+370 verbose addNamed "0.3.0" is a plain semver version for fresh
+371 silly mapToRegistry name fresh
+372 silly mapToRegistry using default registry
+373 silly mapToRegistry registry https://registry.npmjs.org/
+374 silly mapToRegistry data Result {
+374 silly mapToRegistry   raw: 'fresh',
+374 silly mapToRegistry   scope: null,
+374 silly mapToRegistry   name: 'fresh',
+374 silly mapToRegistry   rawSpec: '',
+374 silly mapToRegistry   spec: 'latest',
+374 silly mapToRegistry   type: 'tag' }
+375 silly mapToRegistry uri https://registry.npmjs.org/fresh
+376 verbose addNameVersion registry:https://registry.npmjs.org/fresh not in flight; fetching
+377 silly cache add args [ 'http-errors@~1.5.0', null ]
+378 verbose cache add spec http-errors@~1.5.0
+379 silly cache add parsed spec Result {
+379 silly cache add   raw: 'http-errors@~1.5.0',
+379 silly cache add   scope: null,
+379 silly cache add   name: 'http-errors',
+379 silly cache add   rawSpec: '~1.5.0',
+379 silly cache add   spec: '>=1.5.0 <1.6.0',
+379 silly cache add   type: 'range' }
+380 silly addNamed http-errors@>=1.5.0 <1.6.0
+381 verbose addNamed ">=1.5.0 <1.6.0" is a valid semver range for http-errors
+382 silly addNameRange { name: 'http-errors', range: '>=1.5.0 <1.6.0', hasData: false }
+383 silly mapToRegistry name http-errors
+384 silly mapToRegistry using default registry
+385 silly mapToRegistry registry https://registry.npmjs.org/
+386 silly mapToRegistry data Result {
+386 silly mapToRegistry   raw: 'http-errors',
+386 silly mapToRegistry   scope: null,
+386 silly mapToRegistry   name: 'http-errors',
+386 silly mapToRegistry   rawSpec: '',
+386 silly mapToRegistry   spec: 'latest',
+386 silly mapToRegistry   type: 'tag' }
+387 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+388 verbose addNameRange registry:https://registry.npmjs.org/http-errors not in flight; fetching
+389 silly cache add args [ 'mime@1.3.4', null ]
+390 verbose cache add spec mime@1.3.4
+391 silly cache add parsed spec Result {
+391 silly cache add   raw: 'mime@1.3.4',
+391 silly cache add   scope: null,
+391 silly cache add   name: 'mime',
+391 silly cache add   rawSpec: '1.3.4',
+391 silly cache add   spec: '1.3.4',
+391 silly cache add   type: 'version' }
+392 silly addNamed mime@1.3.4
+393 verbose addNamed "1.3.4" is a plain semver version for mime
+394 silly mapToRegistry name mime
+395 silly mapToRegistry using default registry
+396 silly mapToRegistry registry https://registry.npmjs.org/
+397 silly mapToRegistry data Result {
+397 silly mapToRegistry   raw: 'mime',
+397 silly mapToRegistry   scope: null,
+397 silly mapToRegistry   name: 'mime',
+397 silly mapToRegistry   rawSpec: '',
+397 silly mapToRegistry   spec: 'latest',
+397 silly mapToRegistry   type: 'tag' }
+398 silly mapToRegistry uri https://registry.npmjs.org/mime
+399 verbose addNameVersion registry:https://registry.npmjs.org/mime not in flight; fetching
+400 silly cache add args [ 'ms@0.7.1', null ]
+401 verbose cache add spec ms@0.7.1
+402 silly cache add parsed spec Result {
+402 silly cache add   raw: 'ms@0.7.1',
+402 silly cache add   scope: null,
+402 silly cache add   name: 'ms',
+402 silly cache add   rawSpec: '0.7.1',
+402 silly cache add   spec: '0.7.1',
+402 silly cache add   type: 'version' }
+403 silly addNamed ms@0.7.1
+404 verbose addNamed "0.7.1" is a plain semver version for ms
+405 silly mapToRegistry name ms
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npmjs.org/
+408 silly mapToRegistry data Result {
+408 silly mapToRegistry   raw: 'ms',
+408 silly mapToRegistry   scope: null,
+408 silly mapToRegistry   name: 'ms',
+408 silly mapToRegistry   rawSpec: '',
+408 silly mapToRegistry   spec: 'latest',
+408 silly mapToRegistry   type: 'tag' }
+409 silly mapToRegistry uri https://registry.npmjs.org/ms
+410 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+411 silly cache add args [ 'on-finished@~2.3.0', null ]
+412 verbose cache add spec on-finished@~2.3.0
+413 silly cache add parsed spec Result {
+413 silly cache add   raw: 'on-finished@~2.3.0',
+413 silly cache add   scope: null,
+413 silly cache add   name: 'on-finished',
+413 silly cache add   rawSpec: '~2.3.0',
+413 silly cache add   spec: '>=2.3.0 <2.4.0',
+413 silly cache add   type: 'range' }
+414 silly addNamed on-finished@>=2.3.0 <2.4.0
+415 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for on-finished
+416 silly addNameRange { name: 'on-finished', range: '>=2.3.0 <2.4.0', hasData: false }
+417 silly mapToRegistry name on-finished
+418 silly mapToRegistry using default registry
+419 silly mapToRegistry registry https://registry.npmjs.org/
+420 silly mapToRegistry data Result {
+420 silly mapToRegistry   raw: 'on-finished',
+420 silly mapToRegistry   scope: null,
+420 silly mapToRegistry   name: 'on-finished',
+420 silly mapToRegistry   rawSpec: '',
+420 silly mapToRegistry   spec: 'latest',
+420 silly mapToRegistry   type: 'tag' }
+421 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+422 verbose addNameRange registry:https://registry.npmjs.org/on-finished not in flight; fetching
+423 silly cache add args [ 'range-parser@~1.2.0', null ]
+424 verbose cache add spec range-parser@~1.2.0
+425 silly cache add parsed spec Result {
+425 silly cache add   raw: 'range-parser@~1.2.0',
+425 silly cache add   scope: null,
+425 silly cache add   name: 'range-parser',
+425 silly cache add   rawSpec: '~1.2.0',
+425 silly cache add   spec: '>=1.2.0 <1.3.0',
+425 silly cache add   type: 'range' }
+426 silly addNamed range-parser@>=1.2.0 <1.3.0
+427 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for range-parser
+428 silly addNameRange { name: 'range-parser', range: '>=1.2.0 <1.3.0', hasData: false }
+429 silly mapToRegistry name range-parser
+430 silly mapToRegistry using default registry
+431 silly mapToRegistry registry https://registry.npmjs.org/
+432 silly mapToRegistry data Result {
+432 silly mapToRegistry   raw: 'range-parser',
+432 silly mapToRegistry   scope: null,
+432 silly mapToRegistry   name: 'range-parser',
+432 silly mapToRegistry   rawSpec: '',
+432 silly mapToRegistry   spec: 'latest',
+432 silly mapToRegistry   type: 'tag' }
+433 silly mapToRegistry uri https://registry.npmjs.org/range-parser
+434 verbose addNameRange registry:https://registry.npmjs.org/range-parser not in flight; fetching
+435 silly cache add args [ 'statuses@~1.3.0', null ]
+436 verbose cache add spec statuses@~1.3.0
+437 silly cache add parsed spec Result {
+437 silly cache add   raw: 'statuses@~1.3.0',
+437 silly cache add   scope: null,
+437 silly cache add   name: 'statuses',
+437 silly cache add   rawSpec: '~1.3.0',
+437 silly cache add   spec: '>=1.3.0 <1.4.0',
+437 silly cache add   type: 'range' }
+438 silly addNamed statuses@>=1.3.0 <1.4.0
+439 verbose addNamed ">=1.3.0 <1.4.0" is a valid semver range for statuses
+440 silly addNameRange { name: 'statuses', range: '>=1.3.0 <1.4.0', hasData: false }
+441 silly mapToRegistry name statuses
+442 silly mapToRegistry using default registry
+443 silly mapToRegistry registry https://registry.npmjs.org/
+444 silly mapToRegistry data Result {
+444 silly mapToRegistry   raw: 'statuses',
+444 silly mapToRegistry   scope: null,
+444 silly mapToRegistry   name: 'statuses',
+444 silly mapToRegistry   rawSpec: '',
+444 silly mapToRegistry   spec: 'latest',
+444 silly mapToRegistry   type: 'tag' }
+445 silly mapToRegistry uri https://registry.npmjs.org/statuses
+446 verbose addNameRange registry:https://registry.npmjs.org/statuses not in flight; fetching
+447 silly cache add args [ 'debug@~2.2.0', null ]
+448 verbose cache add spec debug@~2.2.0
+449 silly cache add parsed spec Result {
+449 silly cache add   raw: 'debug@~2.2.0',
+449 silly cache add   scope: null,
+449 silly cache add   name: 'debug',
+449 silly cache add   rawSpec: '~2.2.0',
+449 silly cache add   spec: '>=2.2.0 <2.3.0',
+449 silly cache add   type: 'range' }
+450 silly addNamed debug@>=2.2.0 <2.3.0
+451 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for debug
+452 silly addNameRange { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: false }
+453 silly mapToRegistry name debug
+454 silly mapToRegistry using default registry
+455 silly mapToRegistry registry https://registry.npmjs.org/
+456 silly mapToRegistry data Result {
+456 silly mapToRegistry   raw: 'debug',
+456 silly mapToRegistry   scope: null,
+456 silly mapToRegistry   name: 'debug',
+456 silly mapToRegistry   rawSpec: '',
+456 silly mapToRegistry   spec: 'latest',
+456 silly mapToRegistry   type: 'tag' }
+457 silly mapToRegistry uri https://registry.npmjs.org/debug
+458 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+459 silly cache add args [ 'depd@~1.1.0', null ]
+460 verbose cache add spec depd@~1.1.0
+461 silly cache add parsed spec Result {
+461 silly cache add   raw: 'depd@~1.1.0',
+461 silly cache add   scope: null,
+461 silly cache add   name: 'depd',
+461 silly cache add   rawSpec: '~1.1.0',
+461 silly cache add   spec: '>=1.1.0 <1.2.0',
+461 silly cache add   type: 'range' }
+462 silly addNamed depd@>=1.1.0 <1.2.0
+463 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for depd
+464 silly addNameRange { name: 'depd', range: '>=1.1.0 <1.2.0', hasData: false }
+465 silly mapToRegistry name depd
+466 silly mapToRegistry using default registry
+467 silly mapToRegistry registry https://registry.npmjs.org/
+468 silly mapToRegistry data Result {
+468 silly mapToRegistry   raw: 'depd',
+468 silly mapToRegistry   scope: null,
+468 silly mapToRegistry   name: 'depd',
+468 silly mapToRegistry   rawSpec: '',
+468 silly mapToRegistry   spec: 'latest',
+468 silly mapToRegistry   type: 'tag' }
+469 silly mapToRegistry uri https://registry.npmjs.org/depd
+470 verbose addNameRange registry:https://registry.npmjs.org/depd not in flight; fetching
+471 verbose linkBins escape-html@1.0.3
+472 verbose linkMans escape-html@1.0.3
+473 verbose rebuildBundles escape-html@1.0.3
+474 info install escape-html@1.0.3
+475 info postinstall escape-html@1.0.3
+476 verbose request uri https://registry.npmjs.org/destroy
+477 verbose request no auth needed
+478 info attempt registry request try #1 at 11:36:18 AM
+479 verbose etag "2NWZIK35W498C0J58EVAI3KHZ"
+480 http request GET https://registry.npmjs.org/destroy
+481 verbose request uri https://registry.npmjs.org/etag
+482 verbose request no auth needed
+483 info attempt registry request try #1 at 11:36:18 AM
+484 verbose etag "CAAEFWXMH6ST3LYX0BTMBJQU"
+485 http request GET https://registry.npmjs.org/etag
+486 verbose request uri https://registry.npmjs.org/http-errors
+487 verbose request no auth needed
+488 info attempt registry request try #1 at 11:36:18 AM
+489 verbose etag "C6A0MWQ0XCFDBJ5V8OYWH2BCL"
+490 http request GET https://registry.npmjs.org/http-errors
+491 verbose request uri https://registry.npmjs.org/fresh
+492 verbose request no auth needed
+493 info attempt registry request try #1 at 11:36:18 AM
+494 verbose etag "275FBQ7DYYZ88WZ6SWZ0PBCR1"
+495 http request GET https://registry.npmjs.org/fresh
+496 verbose request uri https://registry.npmjs.org/mime
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 11:36:18 AM
+499 verbose etag "7V8ATNV70Z0P69FM1KT5I71ZG"
+500 http request GET https://registry.npmjs.org/mime
+501 verbose request uri https://registry.npmjs.org/on-finished
+502 verbose request no auth needed
+503 info attempt registry request try #1 at 11:36:18 AM
+504 verbose etag "5HI975RQQ4ZMWO79KX96Q7Y6V"
+505 http request GET https://registry.npmjs.org/on-finished
+506 verbose request uri https://registry.npmjs.org/ms
+507 verbose request no auth needed
+508 info attempt registry request try #1 at 11:36:18 AM
+509 verbose etag "4EHDI6ZD0RZD26RKK73S8EZTQ"
+510 http request GET https://registry.npmjs.org/ms
+511 verbose request uri https://registry.npmjs.org/range-parser
+512 verbose request no auth needed
+513 info attempt registry request try #1 at 11:36:18 AM
+514 verbose etag "DRYHTIM0PJ81V9LH9QGC01OQW"
+515 http request GET https://registry.npmjs.org/range-parser
+516 verbose request uri https://registry.npmjs.org/statuses
+517 verbose request no auth needed
+518 info attempt registry request try #1 at 11:36:18 AM
+519 verbose etag "3KCKUNZRW6W4E0ICQ29QZ13KW"
+520 http request GET https://registry.npmjs.org/statuses
+521 verbose request uri https://registry.npmjs.org/depd
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 11:36:18 AM
+524 verbose etag "2IUBEEQSLE6DHP0TKJC7QMY81"
+525 http request GET https://registry.npmjs.org/depd
+526 verbose request uri https://registry.npmjs.org/debug
+527 verbose request no auth needed
+528 info attempt registry request try #1 at 11:36:18 AM
+529 verbose etag "5QBV93OUB5WHKB1HXH7GAWXDJ"
+530 http request GET https://registry.npmjs.org/debug
+531 verbose linkBins parseurl@1.3.1
+532 verbose linkMans parseurl@1.3.1
+533 verbose rebuildBundles parseurl@1.3.1
+534 verbose linkBins encodeurl@1.0.1
+535 verbose linkMans encodeurl@1.0.1
+536 verbose rebuildBundles encodeurl@1.0.1
+537 verbose unlock done using /Users/manjula/.npm/_locks/escape-html-57fc74b3c6e048ee.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/escape-html
+538 info install parseurl@1.3.1
+539 info install encodeurl@1.0.1
+540 info postinstall parseurl@1.3.1
+541 info postinstall encodeurl@1.0.1
+542 verbose unlock done using /Users/manjula/.npm/_locks/parseurl-0ac11f4505287ac7.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/parseurl
+543 verbose unlock done using /Users/manjula/.npm/_locks/encodeurl-f3baf0d66ed91650.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/encodeurl
+544 http 304 https://registry.npmjs.org/fresh
+545 verbose headers { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+545 verbose headers   via: '1.1 varnish',
+545 verbose headers   'cache-control': 'max-age=300',
+545 verbose headers   etag: '"275FBQ7DYYZ88WZ6SWZ0PBCR1"',
+545 verbose headers   age: '201',
+545 verbose headers   connection: 'keep-alive',
+545 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+545 verbose headers   'x-cache': 'HIT',
+545 verbose headers   'x-cache-hits': '18',
+545 verbose headers   'x-timer': 'S1471413978.507183,VS0,VE0',
+545 verbose headers   vary: 'Accept-Encoding' }
+546 silly get cb [ 304,
+546 silly get   { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+546 silly get     via: '1.1 varnish',
+546 silly get     'cache-control': 'max-age=300',
+546 silly get     etag: '"275FBQ7DYYZ88WZ6SWZ0PBCR1"',
+546 silly get     age: '201',
+546 silly get     connection: 'keep-alive',
+546 silly get     'x-served-by': 'cache-sin6927-SIN',
+546 silly get     'x-cache': 'HIT',
+546 silly get     'x-cache-hits': '18',
+546 silly get     'x-timer': 'S1471413978.507183,VS0,VE0',
+546 silly get     vary: 'Accept-Encoding' } ]
+547 verbose etag https://registry.npmjs.org/fresh from cache
+548 verbose get saving fresh to /Users/manjula/.npm/registry.npmjs.org/fresh/.cache.json
+549 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+550 http 304 https://registry.npmjs.org/etag
+551 verbose headers { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+551 verbose headers   via: '1.1 varnish',
+551 verbose headers   'cache-control': 'max-age=300',
+551 verbose headers   etag: '"CAAEFWXMH6ST3LYX0BTMBJQU"',
+551 verbose headers   age: '280',
+551 verbose headers   connection: 'keep-alive',
+551 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+551 verbose headers   'x-cache': 'HIT',
+551 verbose headers   'x-cache-hits': '74',
+551 verbose headers   'x-timer': 'S1471413978.503689,VS0,VE0',
+551 verbose headers   vary: 'Accept-Encoding' }
+552 silly get cb [ 304,
+552 silly get   { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+552 silly get     via: '1.1 varnish',
+552 silly get     'cache-control': 'max-age=300',
+552 silly get     etag: '"CAAEFWXMH6ST3LYX0BTMBJQU"',
+552 silly get     age: '280',
+552 silly get     connection: 'keep-alive',
+552 silly get     'x-served-by': 'cache-sin6924-SIN',
+552 silly get     'x-cache': 'HIT',
+552 silly get     'x-cache-hits': '74',
+552 silly get     'x-timer': 'S1471413978.503689,VS0,VE0',
+552 silly get     vary: 'Accept-Encoding' } ]
+553 verbose etag https://registry.npmjs.org/etag from cache
+554 verbose get saving etag to /Users/manjula/.npm/registry.npmjs.org/etag/.cache.json
+555 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+556 http 304 https://registry.npmjs.org/destroy
+557 verbose headers { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+557 verbose headers   via: '1.1 varnish',
+557 verbose headers   'cache-control': 'max-age=300',
+557 verbose headers   etag: '"2NWZIK35W498C0J58EVAI3KHZ"',
+557 verbose headers   age: '247',
+557 verbose headers   connection: 'keep-alive',
+557 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+557 verbose headers   'x-cache': 'HIT',
+557 verbose headers   'x-cache-hits': '14',
+557 verbose headers   'x-timer': 'S1471413978.502506,VS0,VE0',
+557 verbose headers   vary: 'Accept-Encoding' }
+558 silly get cb [ 304,
+558 silly get   { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+558 silly get     via: '1.1 varnish',
+558 silly get     'cache-control': 'max-age=300',
+558 silly get     etag: '"2NWZIK35W498C0J58EVAI3KHZ"',
+558 silly get     age: '247',
+558 silly get     connection: 'keep-alive',
+558 silly get     'x-served-by': 'cache-sin6926-SIN',
+558 silly get     'x-cache': 'HIT',
+558 silly get     'x-cache-hits': '14',
+558 silly get     'x-timer': 'S1471413978.502506,VS0,VE0',
+558 silly get     vary: 'Accept-Encoding' } ]
+559 verbose etag https://registry.npmjs.org/destroy from cache
+560 verbose get saving destroy to /Users/manjula/.npm/registry.npmjs.org/destroy/.cache.json
+561 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+562 http 304 https://registry.npmjs.org/http-errors
+563 verbose headers { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+563 verbose headers   via: '1.1 varnish',
+563 verbose headers   'cache-control': 'max-age=300',
+563 verbose headers   etag: '"C6A0MWQ0XCFDBJ5V8OYWH2BCL"',
+563 verbose headers   age: '145',
+563 verbose headers   connection: 'keep-alive',
+563 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+563 verbose headers   'x-cache': 'HIT',
+563 verbose headers   'x-cache-hits': '10',
+563 verbose headers   'x-timer': 'S1471413978.501624,VS0,VE0',
+563 verbose headers   vary: 'Accept-Encoding' }
+564 silly get cb [ 304,
+564 silly get   { date: 'Wed, 17 Aug 2016 06:06:18 GMT',
+564 silly get     via: '1.1 varnish',
+564 silly get     'cache-control': 'max-age=300',
+564 silly get     etag: '"C6A0MWQ0XCFDBJ5V8OYWH2BCL"',
+564 silly get     age: '145',
+564 silly get     connection: 'keep-alive',
+564 silly get     'x-served-by': 'cache-sin6921-SIN',
+564 silly get     'x-cache': 'HIT',
+564 silly get     'x-cache-hits': '10',
+564 silly get     'x-timer': 'S1471413978.501624,VS0,VE0',
+564 silly get     vary: 'Accept-Encoding' } ]
+565 verbose etag https://registry.npmjs.org/http-errors from cache
+566 verbose get saving http-errors to /Users/manjula/.npm/registry.npmjs.org/http-errors/.cache.json
+567 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+568 silly addNameRange number 2 { name: 'etag', range: '>=1.7.0 <1.8.0', hasData: true }
+569 silly addNameRange versions [ 'etag',
+569 silly addNameRange   [ '1.0.0',
+569 silly addNameRange     '1.0.1',
+569 silly addNameRange     '1.1.0',
+569 silly addNameRange     '1.2.0',
+569 silly addNameRange     '1.2.1',
+569 silly addNameRange     '1.3.0',
+569 silly addNameRange     '1.3.1',
+569 silly addNameRange     '1.4.0',
+569 silly addNameRange     '1.5.0',
+569 silly addNameRange     '1.5.1',
+569 silly addNameRange     '1.6.0',
+569 silly addNameRange     '1.7.0' ] ]
+570 silly addNamed etag@1.7.0
+571 verbose addNamed "1.7.0" is a plain semver version for etag
+572 silly addNameRange number 2 { name: 'http-errors', range: '>=1.5.0 <1.6.0', hasData: true }
+573 silly addNameRange versions [ 'http-errors',
+573 silly addNameRange   [ '0.0.1',
+573 silly addNameRange     '1.0.0',
+573 silly addNameRange     '1.0.1',
+573 silly addNameRange     '1.1.0',
+573 silly addNameRange     '1.2.0',
+573 silly addNameRange     '1.2.1',
+573 silly addNameRange     '1.2.2',
+573 silly addNameRange     '1.2.3',
+573 silly addNameRange     '1.2.4',
+573 silly addNameRange     '1.2.5',
+573 silly addNameRange     '1.2.6',
+573 silly addNameRange     '1.2.7',
+573 silly addNameRange     '1.2.8',
+573 silly addNameRange     '1.3.0',
+573 silly addNameRange     '1.3.1',
+573 silly addNameRange     '1.4.0',
+573 silly addNameRange     '1.5.0' ] ]
+574 silly addNamed http-errors@1.5.0
+575 verbose addNamed "1.5.0" is a plain semver version for http-errors
+576 silly cache afterAdd etag@1.7.0
+577 verbose afterAdd /Users/manjula/.npm/etag/1.7.0/package/package.json not in flight; writing
+578 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+579 silly cache afterAdd fresh@0.3.0
+580 verbose afterAdd /Users/manjula/.npm/fresh/0.3.0/package/package.json not in flight; writing
+581 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+582 silly addNameRange number 2 { name: 'destroy', range: '>=1.0.4 <1.1.0', hasData: true }
+583 silly addNameRange versions [ 'destroy', [ '1.0.3', '1.0.4' ] ]
+584 silly addNamed destroy@1.0.4
+585 verbose addNamed "1.0.4" is a plain semver version for destroy
+586 verbose afterAdd /Users/manjula/.npm/etag/1.7.0/package/package.json written
+587 verbose afterAdd /Users/manjula/.npm/fresh/0.3.0/package/package.json written
+588 silly cache afterAdd http-errors@1.5.0
+589 verbose afterAdd /Users/manjula/.npm/http-errors/1.5.0/package/package.json not in flight; writing
+590 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+591 silly cache afterAdd destroy@1.0.4
+592 verbose afterAdd /Users/manjula/.npm/destroy/1.0.4/package/package.json not in flight; writing
+593 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+594 verbose afterAdd /Users/manjula/.npm/destroy/1.0.4/package/package.json written
+595 verbose afterAdd /Users/manjula/.npm/http-errors/1.5.0/package/package.json written
+596 http 304 https://registry.npmjs.org/depd
+597 verbose headers { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+597 verbose headers   via: '1.1 varnish',
+597 verbose headers   'cache-control': 'max-age=300',
+597 verbose headers   etag: '"2IUBEEQSLE6DHP0TKJC7QMY81"',
+597 verbose headers   age: '120',
+597 verbose headers   connection: 'keep-alive',
+597 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+597 verbose headers   'x-cache': 'HIT',
+597 verbose headers   'x-cache-hits': '9',
+597 verbose headers   'x-timer': 'S1471413980.759584,VS0,VE0',
+597 verbose headers   vary: 'Accept-Encoding' }
+598 silly get cb [ 304,
+598 silly get   { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+598 silly get     via: '1.1 varnish',
+598 silly get     'cache-control': 'max-age=300',
+598 silly get     etag: '"2IUBEEQSLE6DHP0TKJC7QMY81"',
+598 silly get     age: '120',
+598 silly get     connection: 'keep-alive',
+598 silly get     'x-served-by': 'cache-sin6927-SIN',
+598 silly get     'x-cache': 'HIT',
+598 silly get     'x-cache-hits': '9',
+598 silly get     'x-timer': 'S1471413980.759584,VS0,VE0',
+598 silly get     vary: 'Accept-Encoding' } ]
+599 verbose etag https://registry.npmjs.org/depd from cache
+600 verbose get saving depd to /Users/manjula/.npm/registry.npmjs.org/depd/.cache.json
+601 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+602 http 304 https://registry.npmjs.org/statuses
+603 verbose headers { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+603 verbose headers   via: '1.1 varnish',
+603 verbose headers   'cache-control': 'max-age=300',
+603 verbose headers   etag: '"3KCKUNZRW6W4E0ICQ29QZ13KW"',
+603 verbose headers   age: '112',
+603 verbose headers   connection: 'keep-alive',
+603 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+603 verbose headers   'x-cache': 'HIT',
+603 verbose headers   'x-cache-hits': '5',
+603 verbose headers   'x-timer': 'S1471413980.798357,VS0,VE0',
+603 verbose headers   vary: 'Accept-Encoding' }
+604 silly get cb [ 304,
+604 silly get   { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+604 silly get     via: '1.1 varnish',
+604 silly get     'cache-control': 'max-age=300',
+604 silly get     etag: '"3KCKUNZRW6W4E0ICQ29QZ13KW"',
+604 silly get     age: '112',
+604 silly get     connection: 'keep-alive',
+604 silly get     'x-served-by': 'cache-sin6922-SIN',
+604 silly get     'x-cache': 'HIT',
+604 silly get     'x-cache-hits': '5',
+604 silly get     'x-timer': 'S1471413980.798357,VS0,VE0',
+604 silly get     vary: 'Accept-Encoding' } ]
+605 verbose etag https://registry.npmjs.org/statuses from cache
+606 verbose get saving statuses to /Users/manjula/.npm/registry.npmjs.org/statuses/.cache.json
+607 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+608 http 304 https://registry.npmjs.org/debug
+609 verbose headers { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+609 verbose headers   via: '1.1 varnish',
+609 verbose headers   'cache-control': 'max-age=300',
+609 verbose headers   etag: '"5QBV93OUB5WHKB1HXH7GAWXDJ"',
+609 verbose headers   age: '20',
+609 verbose headers   connection: 'keep-alive',
+609 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+609 verbose headers   'x-cache': 'HIT',
+609 verbose headers   'x-cache-hits': '4',
+609 verbose headers   'x-timer': 'S1471413980.795988,VS0,VE0',
+609 verbose headers   vary: 'Accept-Encoding' }
+610 silly get cb [ 304,
+610 silly get   { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+610 silly get     via: '1.1 varnish',
+610 silly get     'cache-control': 'max-age=300',
+610 silly get     etag: '"5QBV93OUB5WHKB1HXH7GAWXDJ"',
+610 silly get     age: '20',
+610 silly get     connection: 'keep-alive',
+610 silly get     'x-served-by': 'cache-sin6921-SIN',
+610 silly get     'x-cache': 'HIT',
+610 silly get     'x-cache-hits': '4',
+610 silly get     'x-timer': 'S1471413980.795988,VS0,VE0',
+610 silly get     vary: 'Accept-Encoding' } ]
+611 verbose etag https://registry.npmjs.org/debug from cache
+612 verbose get saving debug to /Users/manjula/.npm/registry.npmjs.org/debug/.cache.json
+613 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+614 http 304 https://registry.npmjs.org/range-parser
+615 verbose headers { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+615 verbose headers   via: '1.1 varnish',
+615 verbose headers   'cache-control': 'max-age=300',
+615 verbose headers   etag: '"DRYHTIM0PJ81V9LH9QGC01OQW"',
+615 verbose headers   age: '77',
+615 verbose headers   connection: 'keep-alive',
+615 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+615 verbose headers   'x-cache': 'HIT',
+615 verbose headers   'x-cache-hits': '8',
+615 verbose headers   'x-timer': 'S1471413980.796162,VS0,VE0',
+615 verbose headers   vary: 'Accept-Encoding' }
+616 silly get cb [ 304,
+616 silly get   { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+616 silly get     via: '1.1 varnish',
+616 silly get     'cache-control': 'max-age=300',
+616 silly get     etag: '"DRYHTIM0PJ81V9LH9QGC01OQW"',
+616 silly get     age: '77',
+616 silly get     connection: 'keep-alive',
+616 silly get     'x-served-by': 'cache-sin6921-SIN',
+616 silly get     'x-cache': 'HIT',
+616 silly get     'x-cache-hits': '8',
+616 silly get     'x-timer': 'S1471413980.796162,VS0,VE0',
+616 silly get     vary: 'Accept-Encoding' } ]
+617 verbose etag https://registry.npmjs.org/range-parser from cache
+618 verbose get saving range-parser to /Users/manjula/.npm/registry.npmjs.org/range-parser/.cache.json
+619 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+620 http 304 https://registry.npmjs.org/mime
+621 verbose headers { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+621 verbose headers   via: '1.1 varnish',
+621 verbose headers   'cache-control': 'max-age=300',
+621 verbose headers   etag: '"7V8ATNV70Z0P69FM1KT5I71ZG"',
+621 verbose headers   age: '24',
+621 verbose headers   connection: 'keep-alive',
+621 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+621 verbose headers   'x-cache': 'HIT',
+621 verbose headers   'x-cache-hits': '5',
+621 verbose headers   'x-timer': 'S1471413980.798447,VS0,VE0',
+621 verbose headers   vary: 'Accept-Encoding' }
+622 silly get cb [ 304,
+622 silly get   { date: 'Wed, 17 Aug 2016 06:06:20 GMT',
+622 silly get     via: '1.1 varnish',
+622 silly get     'cache-control': 'max-age=300',
+622 silly get     etag: '"7V8ATNV70Z0P69FM1KT5I71ZG"',
+622 silly get     age: '24',
+622 silly get     connection: 'keep-alive',
+622 silly get     'x-served-by': 'cache-sin6921-SIN',
+622 silly get     'x-cache': 'HIT',
+622 silly get     'x-cache-hits': '5',
+622 silly get     'x-timer': 'S1471413980.798447,VS0,VE0',
+622 silly get     vary: 'Accept-Encoding' } ]
+623 verbose etag https://registry.npmjs.org/mime from cache
+624 verbose get saving mime to /Users/manjula/.npm/registry.npmjs.org/mime/.cache.json
+625 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+626 silly addNameRange number 2 { name: 'statuses', range: '>=1.3.0 <1.4.0', hasData: true }
+627 silly addNameRange versions [ 'statuses',
+627 silly addNameRange   [ '1.0.1',
+627 silly addNameRange     '1.0.2',
+627 silly addNameRange     '1.0.3',
+627 silly addNameRange     '1.0.4',
+627 silly addNameRange     '1.1.0',
+627 silly addNameRange     '1.1.1',
+627 silly addNameRange     '1.2.0',
+627 silly addNameRange     '1.2.1',
+627 silly addNameRange     '1.3.0' ] ]
+628 silly addNamed statuses@1.3.0
+629 verbose addNamed "1.3.0" is a plain semver version for statuses
+630 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: true }
+631 silly addNameRange versions [ 'debug',
+631 silly addNameRange   [ '0.0.1',
+631 silly addNameRange     '0.1.0',
+631 silly addNameRange     '0.2.0',
+631 silly addNameRange     '0.3.0',
+631 silly addNameRange     '0.4.0',
+631 silly addNameRange     '0.4.1',
+631 silly addNameRange     '0.5.0',
+631 silly addNameRange     '0.6.0',
+631 silly addNameRange     '0.7.0',
+631 silly addNameRange     '0.7.1',
+631 silly addNameRange     '0.7.2',
+631 silly addNameRange     '0.7.3',
+631 silly addNameRange     '0.7.4',
+631 silly addNameRange     '0.8.0',
+631 silly addNameRange     '0.8.1',
+631 silly addNameRange     '1.0.0',
+631 silly addNameRange     '1.0.1',
+631 silly addNameRange     '1.0.2',
+631 silly addNameRange     '1.0.3',
+631 silly addNameRange     '1.0.4',
+631 silly addNameRange     '2.0.0',
+631 silly addNameRange     '2.1.0',
+631 silly addNameRange     '2.1.1',
+631 silly addNameRange     '2.1.2',
+631 silly addNameRange     '2.1.3',
+631 silly addNameRange     '2.2.0' ] ]
+632 silly addNamed debug@2.2.0
+633 verbose addNamed "2.2.0" is a plain semver version for debug
+634 silly addNameRange number 2 { name: 'depd', range: '>=1.1.0 <1.2.0', hasData: true }
+635 silly addNameRange versions [ 'depd',
+635 silly addNameRange   [ '0.0.0',
+635 silly addNameRange     '0.0.1',
+635 silly addNameRange     '0.1.0',
+635 silly addNameRange     '0.2.0',
+635 silly addNameRange     '0.3.0',
+635 silly addNameRange     '0.4.0',
+635 silly addNameRange     '0.4.1',
+635 silly addNameRange     '0.4.2',
+635 silly addNameRange     '0.4.3',
+635 silly addNameRange     '0.4.4',
+635 silly addNameRange     '0.4.5',
+635 silly addNameRange     '1.0.0',
+635 silly addNameRange     '1.0.1',
+635 silly addNameRange     '1.1.0' ] ]
+636 silly addNamed depd@1.1.0
+637 verbose addNamed "1.1.0" is a plain semver version for depd
+638 silly addNameRange number 2 { name: 'range-parser', range: '>=1.2.0 <1.3.0', hasData: true }
+639 silly addNameRange versions [ 'range-parser',
+639 silly addNameRange   [ '0.0.1',
+639 silly addNameRange     '0.0.2',
+639 silly addNameRange     '0.0.3',
+639 silly addNameRange     '0.0.4',
+639 silly addNameRange     '1.0.0',
+639 silly addNameRange     '1.0.1',
+639 silly addNameRange     '1.0.2',
+639 silly addNameRange     '1.0.3',
+639 silly addNameRange     '1.1.0',
+639 silly addNameRange     '1.2.0' ] ]
+640 silly addNamed range-parser@1.2.0
+641 verbose addNamed "1.2.0" is a plain semver version for range-parser
+642 silly cache afterAdd statuses@1.3.0
+643 verbose afterAdd /Users/manjula/.npm/statuses/1.3.0/package/package.json not in flight; writing
+644 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+645 silly cache afterAdd debug@2.2.0
+646 verbose afterAdd /Users/manjula/.npm/debug/2.2.0/package/package.json not in flight; writing
+647 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+648 silly cache afterAdd range-parser@1.2.0
+649 verbose afterAdd /Users/manjula/.npm/range-parser/1.2.0/package/package.json not in flight; writing
+650 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+651 silly cache afterAdd depd@1.1.0
+652 verbose afterAdd /Users/manjula/.npm/depd/1.1.0/package/package.json not in flight; writing
+653 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+654 silly cache afterAdd mime@1.3.4
+655 verbose afterAdd /Users/manjula/.npm/mime/1.3.4/package/package.json not in flight; writing
+656 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+657 verbose afterAdd /Users/manjula/.npm/statuses/1.3.0/package/package.json written
+658 verbose afterAdd /Users/manjula/.npm/debug/2.2.0/package/package.json written
+659 verbose afterAdd /Users/manjula/.npm/range-parser/1.2.0/package/package.json written
+660 verbose afterAdd /Users/manjula/.npm/depd/1.1.0/package/package.json written
+661 verbose afterAdd /Users/manjula/.npm/mime/1.3.4/package/package.json written
+662 http 304 https://registry.npmjs.org/ms
+663 verbose headers { date: 'Wed, 17 Aug 2016 06:06:21 GMT',
+663 verbose headers   via: '1.1 varnish',
+663 verbose headers   'cache-control': 'max-age=300',
+663 verbose headers   etag: '"4EHDI6ZD0RZD26RKK73S8EZTQ"',
+663 verbose headers   age: '226',
+663 verbose headers   connection: 'keep-alive',
+663 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+663 verbose headers   'x-cache': 'HIT',
+663 verbose headers   'x-cache-hits': '37',
+663 verbose headers   'x-timer': 'S1471413981.427148,VS0,VE0',
+663 verbose headers   vary: 'Accept-Encoding' }
+664 silly get cb [ 304,
+664 silly get   { date: 'Wed, 17 Aug 2016 06:06:21 GMT',
+664 silly get     via: '1.1 varnish',
+664 silly get     'cache-control': 'max-age=300',
+664 silly get     etag: '"4EHDI6ZD0RZD26RKK73S8EZTQ"',
+664 silly get     age: '226',
+664 silly get     connection: 'keep-alive',
+664 silly get     'x-served-by': 'cache-sin6923-SIN',
+664 silly get     'x-cache': 'HIT',
+664 silly get     'x-cache-hits': '37',
+664 silly get     'x-timer': 'S1471413981.427148,VS0,VE0',
+664 silly get     vary: 'Accept-Encoding' } ]
+665 verbose etag https://registry.npmjs.org/ms from cache
+666 verbose get saving ms to /Users/manjula/.npm/registry.npmjs.org/ms/.cache.json
+667 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+668 silly cache afterAdd ms@0.7.1
+669 verbose afterAdd /Users/manjula/.npm/ms/0.7.1/package/package.json not in flight; writing
+670 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+671 verbose afterAdd /Users/manjula/.npm/ms/0.7.1/package/package.json written
+672 http 304 https://registry.npmjs.org/on-finished
+673 verbose headers { date: 'Wed, 17 Aug 2016 06:06:22 GMT',
+673 verbose headers   via: '1.1 varnish',
+673 verbose headers   'cache-control': 'max-age=300',
+673 verbose headers   etag: '"5HI975RQQ4ZMWO79KX96Q7Y6V"',
+673 verbose headers   age: '231',
+673 verbose headers   connection: 'keep-alive',
+673 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+673 verbose headers   'x-cache': 'HIT',
+673 verbose headers   'x-cache-hits': '18',
+673 verbose headers   'x-timer': 'S1471413982.743615,VS0,VE0',
+673 verbose headers   vary: 'Accept-Encoding' }
+674 silly get cb [ 304,
+674 silly get   { date: 'Wed, 17 Aug 2016 06:06:22 GMT',
+674 silly get     via: '1.1 varnish',
+674 silly get     'cache-control': 'max-age=300',
+674 silly get     etag: '"5HI975RQQ4ZMWO79KX96Q7Y6V"',
+674 silly get     age: '231',
+674 silly get     connection: 'keep-alive',
+674 silly get     'x-served-by': 'cache-sin6926-SIN',
+674 silly get     'x-cache': 'HIT',
+674 silly get     'x-cache-hits': '18',
+674 silly get     'x-timer': 'S1471413982.743615,VS0,VE0',
+674 silly get     vary: 'Accept-Encoding' } ]
+675 verbose etag https://registry.npmjs.org/on-finished from cache
+676 verbose get saving on-finished to /Users/manjula/.npm/registry.npmjs.org/on-finished/.cache.json
+677 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+678 silly addNameRange number 2 { name: 'on-finished', range: '>=2.3.0 <2.4.0', hasData: true }
+679 silly addNameRange versions [ 'on-finished',
+679 silly addNameRange   [ '2.0.0', '2.1.0', '2.1.1', '2.2.0', '2.2.1', '2.3.0' ] ]
+680 silly addNamed on-finished@2.3.0
+681 verbose addNamed "2.3.0" is a plain semver version for on-finished
+682 silly cache afterAdd on-finished@2.3.0
+683 verbose afterAdd /Users/manjula/.npm/on-finished/2.3.0/package/package.json not in flight; writing
+684 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+685 verbose afterAdd /Users/manjula/.npm/on-finished/2.3.0/package/package.json written
+686 silly install resolved [ { name: 'etag',
+686 silly install resolved     description: 'Create simple ETags',
+686 silly install resolved     version: '1.7.0',
+686 silly install resolved     contributors: [ [Object], [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     keywords: [ 'etag', 'http', 'res' ],
+686 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jshttp/etag.git' },
+686 silly install resolved     devDependencies:
+686 silly install resolved      { benchmark: '1.0.0',
+686 silly install resolved        'beautify-benchmark': '0.2.4',
+686 silly install resolved        istanbul: '0.3.14',
+686 silly install resolved        mocha: '~1.21.4',
+686 silly install resolved        seedrandom: '2.3.11' },
+686 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+686 silly install resolved     engines: { node: '>= 0.6' },
+686 silly install resolved     scripts:
+686 silly install resolved      { bench: 'node benchmark/index.js',
+686 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+686 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+686 silly install resolved     gitHead: 'a511f5c8c930fd9546dbd88acb080f96bc788cfc',
+686 silly install resolved     bugs: { url: 'https://github.com/jshttp/etag/issues' },
+686 silly install resolved     homepage: 'https://github.com/jshttp/etag',
+686 silly install resolved     _id: 'etag@1.7.0',
+686 silly install resolved     _shasum: '03d30b5f67dd6e632d2945d30d6652731a34d5d8',
+686 silly install resolved     _from: 'etag@>=1.7.0 <1.8.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '03d30b5f67dd6e632d2945d30d6652731a34d5d8',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/etag/-/etag-1.7.0.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/etag/-/etag-1.7.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'fresh',
+686 silly install resolved     description: 'HTTP response freshness testing',
+686 silly install resolved     version: '0.3.0',
+686 silly install resolved     author:
+686 silly install resolved      { name: 'TJ Holowaychuk',
+686 silly install resolved        email: 'tj@vision-media.ca',
+686 silly install resolved        url: 'http://tjholowaychuk.com' },
+686 silly install resolved     contributors: [ [Object], [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     keywords: [ 'fresh', 'http', 'conditional', 'cache' ],
+686 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jshttp/fresh.git' },
+686 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '1.21.5' },
+686 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+686 silly install resolved     engines: { node: '>= 0.6' },
+686 silly install resolved     scripts:
+686 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+686 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+686 silly install resolved     gitHead: '14616c9748368ca08cd6a955dd88ab659b778634',
+686 silly install resolved     bugs: { url: 'https://github.com/jshttp/fresh/issues' },
+686 silly install resolved     homepage: 'https://github.com/jshttp/fresh',
+686 silly install resolved     _id: 'fresh@0.3.0',
+686 silly install resolved     _shasum: '651f838e22424e7566de161d8358caa199f83d4f',
+686 silly install resolved     _from: 'fresh@0.3.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '651f838e22424e7566de161d8358caa199f83d4f',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/fresh/-/fresh-0.3.0.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/fresh/-/fresh-0.3.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'destroy',
+686 silly install resolved     description: 'destroy a stream if possible',
+686 silly install resolved     version: '1.0.4',
+686 silly install resolved     author:
+686 silly install resolved      { name: 'Jonathan Ong',
+686 silly install resolved        email: 'me@jongleberry.com',
+686 silly install resolved        url: 'http://jongleberry.com' },
+686 silly install resolved     contributors: [ [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git+https://github.com/stream-utils/destroy.git' },
+686 silly install resolved     devDependencies: { istanbul: '0.4.2', mocha: '2.3.4' },
+686 silly install resolved     scripts:
+686 silly install resolved      { test: 'mocha --reporter spec',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot',
+686 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot' },
+686 silly install resolved     files: [ 'index.js', 'LICENSE' ],
+686 silly install resolved     keywords: [ 'stream', 'streams', 'destroy', 'cleanup', 'leak', 'fd' ],
+686 silly install resolved     gitHead: '86edea01456f5fa1027f6a47250c34c713cbcc3b',
+686 silly install resolved     bugs: { url: 'https://github.com/stream-utils/destroy/issues' },
+686 silly install resolved     homepage: 'https://github.com/stream-utils/destroy',
+686 silly install resolved     _id: 'destroy@1.0.4',
+686 silly install resolved     _shasum: '978857442c44749e4206613e37946205826abd80',
+686 silly install resolved     _from: 'destroy@>=1.0.4 <1.1.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '978857442c44749e4206613e37946205826abd80',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'http-errors',
+686 silly install resolved     description: 'Create HTTP error objects',
+686 silly install resolved     version: '1.5.0',
+686 silly install resolved     author:
+686 silly install resolved      { name: 'Jonathan Ong',
+686 silly install resolved        email: 'me@jongleberry.com',
+686 silly install resolved        url: 'http://jongleberry.com' },
+686 silly install resolved     contributors: [ [Object], [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git+https://github.com/jshttp/http-errors.git' },
+686 silly install resolved     dependencies:
+686 silly install resolved      { inherits: '2.0.1',
+686 silly install resolved        setprototypeof: '1.0.1',
+686 silly install resolved        statuses: '>= 1.3.0 < 2' },
+686 silly install resolved     devDependencies:
+686 silly install resolved      { eslint: '2.10.2',
+686 silly install resolved        'eslint-config-standard': '5.3.1',
+686 silly install resolved        'eslint-plugin-promise': '1.1.0',
+686 silly install resolved        'eslint-plugin-standard': '1.3.2',
+686 silly install resolved        istanbul: '0.4.3',
+686 silly install resolved        mocha: '1.21.5' },
+686 silly install resolved     engines: { node: '>= 0.6' },
+686 silly install resolved     scripts:
+686 silly install resolved      { lint: 'eslint **/*.js',
+686 silly install resolved        test: 'mocha --reporter spec --bail',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot',
+686 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot' },
+686 silly install resolved     keywords: [ 'http', 'error' ],
+686 silly install resolved     files: [ 'index.js', 'HISTORY.md', 'LICENSE', 'README.md' ],
+686 silly install resolved     gitHead: '1a826d7ac31dde16931b9c566041697939ebd0e0',
+686 silly install resolved     bugs: { url: 'https://github.com/jshttp/http-errors/issues' },
+686 silly install resolved     homepage: 'https://github.com/jshttp/http-errors#readme',
+686 silly install resolved     _id: 'http-errors@1.5.0',
+686 silly install resolved     _shasum: 'b1cb3d8260fd8e2386cad3189045943372d48211',
+686 silly install resolved     _from: 'http-errors@>=1.5.0 <1.6.0',
+686 silly install resolved     _npmVersion: '2.15.1',
+686 silly install resolved     _nodeVersion: '4.4.3',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: 'b1cb3d8260fd8e2386cad3189045943372d48211',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/http-errors/-/http-errors-1.5.0.tgz' },
+686 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+686 silly install resolved     _npmOperationalInternal:
+686 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+686 silly install resolved        tmp: 'tmp/http-errors-1.5.0.tgz_1463621678183_0.44013352948240936' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/http-errors/-/http-errors-1.5.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'statuses',
+686 silly install resolved     description: 'HTTP status utility',
+686 silly install resolved     version: '1.3.0',
+686 silly install resolved     contributors: [ [Object], [Object] ],
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git+https://github.com/jshttp/statuses.git' },
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     keywords: [ 'http', 'status', 'code' ],
+686 silly install resolved     files: [ 'HISTORY.md', 'index.js', 'codes.json', 'LICENSE' ],
+686 silly install resolved     devDependencies:
+686 silly install resolved      { 'csv-parse': '1.0.1',
+686 silly install resolved        eslint: '2.10.2',
+686 silly install resolved        'eslint-config-standard': '5.3.1',
+686 silly install resolved        'eslint-plugin-promise': '1.1.0',
+686 silly install resolved        'eslint-plugin-standard': '1.3.2',
+686 silly install resolved        istanbul: '0.4.3',
+686 silly install resolved        mocha: '1.21.5',
+686 silly install resolved        'stream-to-array': '2.2.0' },
+686 silly install resolved     engines: { node: '>= 0.6' },
+686 silly install resolved     scripts:
+686 silly install resolved      { build: 'node scripts/build.js',
+686 silly install resolved        fetch: 'node scripts/fetch.js',
+686 silly install resolved        lint: 'eslint **/*.js',
+686 silly install resolved        test: 'mocha --reporter spec --check-leaks --bail test/',
+686 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+686 silly install resolved        update: 'npm run fetch && npm run build' },
+686 silly install resolved     gitHead: 'b3e31e8c32dd8107e898b44b8c0b2dfff3cba495',
+686 silly install resolved     bugs: { url: 'https://github.com/jshttp/statuses/issues' },
+686 silly install resolved     homepage: 'https://github.com/jshttp/statuses',
+686 silly install resolved     _id: 'statuses@1.3.0',
+686 silly install resolved     _shasum: '8e55758cb20e7682c1f4fce8dcab30bf01d1e07a',
+686 silly install resolved     _from: 'statuses@>=1.3.0 <1.4.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '8e55758cb20e7682c1f4fce8dcab30bf01d1e07a',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz' },
+686 silly install resolved     _npmOperationalInternal:
+686 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+686 silly install resolved        tmp: 'tmp/statuses-1.3.0.tgz_1463517875633_0.19560232176445425' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/statuses/-/statuses-1.3.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'debug',
+686 silly install resolved     version: '2.2.0',
+686 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+686 silly install resolved     description: 'small debugging utility',
+686 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+686 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+686 silly install resolved     contributors: [ [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     dependencies: { ms: '0.7.1' },
+686 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+686 silly install resolved     main: './node.js',
+686 silly install resolved     browser: './browser.js',
+686 silly install resolved     component: { scripts: [Object] },
+686 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+686 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+686 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+686 silly install resolved     _id: 'debug@2.2.0',
+686 silly install resolved     scripts: {},
+686 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+686 silly install resolved     _from: 'debug@>=2.2.0 <2.3.0',
+686 silly install resolved     _npmVersion: '2.7.4',
+686 silly install resolved     _nodeVersion: '0.12.2',
+686 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+686 silly install resolved     maintainers: [ [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'range-parser',
+686 silly install resolved     author:
+686 silly install resolved      { name: 'TJ Holowaychuk',
+686 silly install resolved        email: 'tj@vision-media.ca',
+686 silly install resolved        url: 'http://tjholowaychuk.com' },
+686 silly install resolved     description: 'Range header field string parser',
+686 silly install resolved     version: '1.2.0',
+686 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     keywords: [ 'range', 'parser', 'http' ],
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git+https://github.com/jshttp/range-parser.git' },
+686 silly install resolved     devDependencies:
+686 silly install resolved      { eslint: '2.11.1',
+686 silly install resolved        'eslint-config-standard': '5.3.1',
+686 silly install resolved        'eslint-plugin-promise': '1.1.0',
+686 silly install resolved        'eslint-plugin-standard': '1.3.2',
+686 silly install resolved        istanbul: '0.4.3',
+686 silly install resolved        mocha: '1.21.5' },
+686 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+686 silly install resolved     engines: { node: '>= 0.6' },
+686 silly install resolved     scripts:
+686 silly install resolved      { lint: 'eslint **/*.js',
+686 silly install resolved        test: 'mocha --reporter spec',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot',
+686 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot' },
+686 silly install resolved     gitHead: '0665aca31639d799dee1d35fb10970799559ec48',
+686 silly install resolved     bugs: { url: 'https://github.com/jshttp/range-parser/issues' },
+686 silly install resolved     homepage: 'https://github.com/jshttp/range-parser',
+686 silly install resolved     _id: 'range-parser@1.2.0',
+686 silly install resolved     _shasum: 'f49be6b487894ddc40dcc94a322f611092e00d5e',
+686 silly install resolved     _from: 'range-parser@>=1.2.0 <1.3.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: 'f49be6b487894ddc40dcc94a322f611092e00d5e',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz' },
+686 silly install resolved     _npmOperationalInternal:
+686 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+686 silly install resolved        tmp: 'tmp/range-parser-1.2.0.tgz_1464803293097_0.6830497414339334' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'depd',
+686 silly install resolved     description: 'Deprecate all the things',
+686 silly install resolved     version: '1.1.0',
+686 silly install resolved     author:
+686 silly install resolved      { name: 'Douglas Christopher Wilson',
+686 silly install resolved        email: 'doug@somethingdoug.com' },
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     keywords: [ 'deprecate', 'deprecated' ],
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git+https://github.com/dougwilson/nodejs-depd.git' },
+686 silly install resolved     browser: 'lib/browser/index.js',
+686 silly install resolved     devDependencies:
+686 silly install resolved      { benchmark: '1.0.0',
+686 silly install resolved        'beautify-benchmark': '0.2.4',
+686 silly install resolved        istanbul: '0.3.5',
+686 silly install resolved        mocha: '~1.21.5' },
+686 silly install resolved     files: [ 'lib/', 'History.md', 'LICENSE', 'index.js', 'Readme.md' ],
+686 silly install resolved     engines: { node: '>= 0.6' },
+686 silly install resolved     scripts:
+686 silly install resolved      { bench: 'node benchmark/index.js',
+686 silly install resolved        test: 'mocha --reporter spec --bail test/',
+686 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --no-exit test/',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/' },
+686 silly install resolved     gitHead: '78c659de20283e3a6bee92bda455e6daff01686a',
+686 silly install resolved     bugs: { url: 'https://github.com/dougwilson/nodejs-depd/issues' },
+686 silly install resolved     homepage: 'https://github.com/dougwilson/nodejs-depd',
+686 silly install resolved     _id: 'depd@1.1.0',
+686 silly install resolved     _shasum: 'e1bd82c6aab6ced965b97b88b17ed3e528ca18c3',
+686 silly install resolved     _from: 'depd@>=1.1.0 <1.2.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: 'e1bd82c6aab6ced965b97b88b17ed3e528ca18c3',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/depd/-/depd-1.1.0.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/depd/-/depd-1.1.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { author:
+686 silly install resolved      { name: 'Robert Kieffer',
+686 silly install resolved        email: 'robert@broofa.com',
+686 silly install resolved        url: 'http://github.com/broofa' },
+686 silly install resolved     scripts:
+686 silly install resolved      { prepublish: 'node build/build.js > types.json',
+686 silly install resolved        test: 'node build/test.js' },
+686 silly install resolved     bin: { mime: 'cli.js' },
+686 silly install resolved     contributors: [ [Object] ],
+686 silly install resolved     description: 'A comprehensive library for mime-type mapping',
+686 silly install resolved     licenses: [ [Object] ],
+686 silly install resolved     dependencies: {},
+686 silly install resolved     devDependencies: { 'mime-db': '^1.2.0' },
+686 silly install resolved     keywords: [ 'util', 'mime' ],
+686 silly install resolved     main: 'mime.js',
+686 silly install resolved     name: 'mime',
+686 silly install resolved     repository:
+686 silly install resolved      { url: 'git+https://github.com/broofa/node-mime.git',
+686 silly install resolved        type: 'git' },
+686 silly install resolved     version: '1.3.4',
+686 silly install resolved     gitHead: '1628f6e0187095009dcef4805c3a49706f137974',
+686 silly install resolved     bugs: { url: 'https://github.com/broofa/node-mime/issues' },
+686 silly install resolved     homepage: 'https://github.com/broofa/node-mime',
+686 silly install resolved     _id: 'mime@1.3.4',
+686 silly install resolved     _shasum: '115f9e3b6b3daf2959983cb38f149a2d40eb5d53',
+686 silly install resolved     _from: 'mime@1.3.4',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'broofa', email: 'robert@broofa.com' },
+686 silly install resolved     maintainers: [ [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '115f9e3b6b3daf2959983cb38f149a2d40eb5d53',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/mime/-/mime-1.3.4.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/mime/-/mime-1.3.4.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'ms',
+686 silly install resolved     version: '0.7.1',
+686 silly install resolved     description: 'Tiny ms conversion utility',
+686 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+686 silly install resolved     main: './index',
+686 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+686 silly install resolved     component: { scripts: [Object] },
+686 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+686 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+686 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+686 silly install resolved     _id: 'ms@0.7.1',
+686 silly install resolved     scripts: {},
+686 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+686 silly install resolved     _from: 'ms@0.7.1',
+686 silly install resolved     _npmVersion: '2.7.5',
+686 silly install resolved     _nodeVersion: '0.12.2',
+686 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+686 silly install resolved     maintainers: [ [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' },
+686 silly install resolved   { name: 'on-finished',
+686 silly install resolved     description: 'Execute a callback when a request closes, finishes, or errors',
+686 silly install resolved     version: '2.3.0',
+686 silly install resolved     contributors: [ [Object], [Object] ],
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git+https://github.com/jshttp/on-finished.git' },
+686 silly install resolved     dependencies: { 'ee-first': '1.1.1' },
+686 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5' },
+686 silly install resolved     engines: { node: '>= 0.8' },
+686 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+686 silly install resolved     scripts:
+686 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+686 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+686 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+686 silly install resolved     gitHead: '34babcb58126a416fcf5205768204f2e12699dda',
+686 silly install resolved     bugs: { url: 'https://github.com/jshttp/on-finished/issues' },
+686 silly install resolved     homepage: 'https://github.com/jshttp/on-finished',
+686 silly install resolved     _id: 'on-finished@2.3.0',
+686 silly install resolved     _shasum: '20f1336481b083cd75337992a16971aa2d906947',
+686 silly install resolved     _from: 'on-finished@>=2.3.0 <2.4.0',
+686 silly install resolved     _npmVersion: '1.4.28',
+686 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+686 silly install resolved     maintainers: [ [Object], [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '20f1336481b083cd75337992a16971aa2d906947',
+686 silly install resolved        tarball: 'https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' } ]
+687 info install etag@1.7.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+688 info install fresh@0.3.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+689 info install destroy@1.0.4 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+690 info install http-errors@1.5.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+691 info install statuses@1.3.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+692 info install debug@2.2.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+693 info install range-parser@1.2.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+694 info install depd@1.1.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+695 info install mime@1.3.4 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+696 info install ms@0.7.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+697 info install on-finished@2.3.0 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+698 info installOne etag@1.7.0
+699 verbose installOne of etag to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+700 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+701 info installOne fresh@0.3.0
+702 verbose installOne of fresh to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+703 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+704 info installOne destroy@1.0.4
+705 verbose installOne of destroy to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+706 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+707 info installOne http-errors@1.5.0
+708 verbose installOne of http-errors to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+709 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+710 info installOne statuses@1.3.0
+711 verbose installOne of statuses to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+712 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+713 info installOne debug@2.2.0
+714 verbose installOne of debug to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+715 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+716 info installOne range-parser@1.2.0
+717 verbose installOne of range-parser to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+718 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+719 info installOne depd@1.1.0
+720 verbose installOne of depd to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+721 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+722 info installOne mime@1.3.4
+723 verbose installOne of mime to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+724 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+725 info installOne ms@0.7.1
+726 verbose installOne of ms to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+727 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+728 info installOne on-finished@2.3.0
+729 verbose installOne of on-finished to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send not in flight; installing
+730 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+731 verbose lock using /Users/manjula/.npm/_locks/etag-54d741c4aefeee56.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+732 verbose lock using /Users/manjula/.npm/_locks/fresh-619eb2424f738783.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+733 verbose lock using /Users/manjula/.npm/_locks/http-errors-bf326df3b4044a7d.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+734 verbose lock using /Users/manjula/.npm/_locks/statuses-2b1e7d82d967e1e8.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+735 verbose lock using /Users/manjula/.npm/_locks/debug-e80606dba91e6674.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+736 verbose lock using /Users/manjula/.npm/_locks/destroy-b8f3f316ea3bddc9.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+737 verbose lock using /Users/manjula/.npm/_locks/depd-6450631665233346.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+738 verbose lock using /Users/manjula/.npm/_locks/range-parser-bb3a70c7a02b0776.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+739 silly install write writing etag 1.7.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+740 silly install write writing fresh 0.3.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+741 silly install write writing http-errors 1.5.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+742 silly install write writing statuses 1.3.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+743 silly install write writing debug 2.2.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+744 verbose lock using /Users/manjula/.npm/_locks/mime-0b5755e8d41d37f6.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+745 silly install write writing destroy 1.0.4 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+746 silly install write writing depd 1.1.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+747 silly install write writing range-parser 1.2.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+748 verbose lock using /Users/manjula/.npm/_locks/on-finished-a6a42ce032d1587c.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+749 verbose lock using /Users/manjula/.npm/_locks/ms-3e697ebfb5453162.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+750 silly install write writing mime 1.3.4 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+751 silly install write writing on-finished 2.3.0 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+752 silly install write writing ms 0.7.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+753 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/fresh
+754 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/etag
+755 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/http-errors
+756 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/statuses
+757 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/debug
+758 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/destroy
+759 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/depd
+760 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/range-parser
+761 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/ms
+762 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/on-finished
+763 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/mime
+764 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh is being purged from base /Users/manjula/workspace/drag_and_drop
+765 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+766 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag is being purged from base /Users/manjula/workspace/drag_and_drop
+767 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+768 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors is being purged from base /Users/manjula/workspace/drag_and_drop
+769 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+770 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses is being purged from base /Users/manjula/workspace/drag_and_drop
+771 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+772 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug is being purged from base /Users/manjula/workspace/drag_and_drop
+773 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+774 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy is being purged from base /Users/manjula/workspace/drag_and_drop
+775 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+776 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd is being purged from base /Users/manjula/workspace/drag_and_drop
+777 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+778 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser is being purged from base /Users/manjula/workspace/drag_and_drop
+779 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+780 verbose tar unpack /Users/manjula/.npm/fresh/0.3.0/package.tgz
+781 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+782 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh is being purged
+783 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+784 verbose tar unpack /Users/manjula/.npm/etag/1.7.0/package.tgz
+785 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+786 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag is being purged
+787 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+788 verbose tar unpack /Users/manjula/.npm/http-errors/1.5.0/package.tgz
+789 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+790 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors is being purged
+791 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+792 verbose tar unpack /Users/manjula/.npm/statuses/1.3.0/package.tgz
+793 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+794 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses is being purged
+795 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+796 verbose tar unpack /Users/manjula/.npm/debug/2.2.0/package.tgz
+797 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+798 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug is being purged
+799 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+800 verbose tar unpack /Users/manjula/.npm/destroy/1.0.4/package.tgz
+801 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+802 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy is being purged
+803 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+804 verbose tar unpack /Users/manjula/.npm/depd/1.1.0/package.tgz
+805 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+806 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd is being purged
+807 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+808 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms is being purged from base /Users/manjula/workspace/drag_and_drop
+809 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+810 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished is being purged from base /Users/manjula/workspace/drag_and_drop
+811 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+812 verbose tar unpack /Users/manjula/.npm/range-parser/1.2.0/package.tgz
+813 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+814 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser is being purged
+815 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+816 silly gunzTarPerm modes [ '755', '644' ]
+817 silly gunzTarPerm modes [ '755', '644' ]
+818 silly gunzTarPerm modes [ '755', '644' ]
+819 silly gunzTarPerm modes [ '755', '644' ]
+820 silly gunzTarPerm modes [ '755', '644' ]
+821 silly gunzTarPerm modes [ '755', '644' ]
+822 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime is being purged from base /Users/manjula/workspace/drag_and_drop
+823 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+824 silly gunzTarPerm modes [ '755', '644' ]
+825 verbose tar unpack /Users/manjula/.npm/ms/0.7.1/package.tgz
+826 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+827 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms is being purged
+828 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+829 verbose tar unpack /Users/manjula/.npm/on-finished/2.3.0/package.tgz
+830 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+831 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished is being purged
+832 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+833 silly gunzTarPerm modes [ '755', '644' ]
+834 verbose tar unpack /Users/manjula/.npm/mime/1.3.4/package.tgz
+835 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+836 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime is being purged
+837 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+838 silly gunzTarPerm modes [ '755', '644' ]
+839 silly gunzTarPerm modes [ '755', '644' ]
+840 silly gunzTarPerm modes [ '755', '644' ]
+841 silly gunzTarPerm extractEntry package.json
+842 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+843 silly gunzTarPerm extractEntry package.json
+844 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+845 silly gunzTarPerm extractEntry package.json
+846 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+847 silly gunzTarPerm extractEntry package.json
+848 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+849 silly gunzTarPerm extractEntry package.json
+850 silly gunzTarPerm extractEntry package.json
+851 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+852 silly gunzTarPerm extractEntry package.json
+853 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+854 silly gunzTarPerm extractEntry package.json
+855 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+856 silly gunzTarPerm extractEntry README.md
+857 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+858 silly gunzTarPerm extractEntry LICENSE
+859 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+860 silly gunzTarPerm extractEntry README.md
+861 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+862 silly gunzTarPerm extractEntry LICENSE
+863 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+864 silly gunzTarPerm extractEntry README.md
+865 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+866 silly gunzTarPerm extractEntry LICENSE
+867 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+868 silly gunzTarPerm extractEntry README.md
+869 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+870 silly gunzTarPerm extractEntry LICENSE
+871 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+872 silly gunzTarPerm extractEntry .npmignore
+873 silly gunzTarPerm extractEntry node.js
+874 silly gunzTarPerm extractEntry LICENSE
+875 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+876 silly gunzTarPerm extractEntry index.js
+877 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+878 silly gunzTarPerm extractEntry README.md
+879 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+880 silly gunzTarPerm extractEntry LICENSE
+881 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+882 silly gunzTarPerm extractEntry README.md
+883 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+884 silly gunzTarPerm extractEntry LICENSE
+885 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+886 silly gunzTarPerm extractEntry package.json
+887 silly gunzTarPerm extractEntry package.json
+888 silly gunzTarPerm extractEntry package.json
+889 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+890 silly gunzTarPerm extractEntry .npmignore
+891 silly gunzTarPerm extractEntry README.md
+892 silly gunzTarPerm extractEntry .npmignore
+893 silly gunzTarPerm extractEntry README.md
+894 silly gunzTarPerm extractEntry README.md
+895 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+896 silly gunzTarPerm extractEntry LICENSE
+897 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+898 silly gunzTarPerm extractEntry index.js
+899 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+900 silly gunzTarPerm extractEntry HISTORY.md
+901 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+902 silly gunzTarPerm extractEntry index.js
+903 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+904 silly gunzTarPerm extractEntry HISTORY.md
+905 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+906 silly gunzTarPerm extractEntry index.js
+907 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+908 silly gunzTarPerm extractEntry HISTORY.md
+909 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+910 silly gunzTarPerm extractEntry index.js
+911 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+912 silly gunzTarPerm extractEntry HISTORY.md
+913 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+914 silly gunzTarPerm extractEntry debug.js
+915 silly gunzTarPerm extractEntry browser.js
+916 silly gunzTarPerm extractEntry index.js
+917 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+918 silly gunzTarPerm extractEntry History.md
+919 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+920 silly gunzTarPerm extractEntry Readme.md
+921 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+922 silly gunzTarPerm extractEntry lib/browser/index.js
+923 silly gunzTarPerm modified mode [ 'lib/browser/index.js', 438, 420 ]
+924 silly gunzTarPerm extractEntry lib/compat/buffer-concat.js
+925 silly gunzTarPerm modified mode [ 'lib/compat/buffer-concat.js', 438, 420 ]
+926 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+927 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 420 ]
+928 silly gunzTarPerm extractEntry lib/compat/event-listener-count.js
+929 silly gunzTarPerm modified mode [ 'lib/compat/event-listener-count.js', 438, 420 ]
+930 silly gunzTarPerm extractEntry lib/compat/index.js
+931 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 420 ]
+932 silly gunzTarPerm extractEntry index.js
+933 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+934 silly gunzTarPerm extractEntry HISTORY.md
+935 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+936 silly gunzTarPerm extractEntry LICENSE
+937 silly gunzTarPerm extractEntry index.js
+938 silly gunzTarPerm extractEntry LICENSE
+939 silly gunzTarPerm extractEntry cli.js
+940 silly gunzTarPerm extractEntry index.js
+941 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+942 silly gunzTarPerm extractEntry HISTORY.md
+943 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+944 silly gunzTarPerm extractEntry Readme.md
+945 silly gunzTarPerm extractEntry codes.json
+946 silly gunzTarPerm modified mode [ 'codes.json', 438, 420 ]
+947 silly gunzTarPerm extractEntry History.md
+948 silly gunzTarPerm extractEntry mime.js
+949 silly gunzTarPerm extractEntry build/build.js
+950 silly gunzTarPerm extractEntry bower.json
+951 silly gunzTarPerm extractEntry .jshintrc
+952 silly gunzTarPerm extractEntry build/test.js
+953 silly gunzTarPerm extractEntry types.json
+954 silly gunzTarPerm extractEntry component.json
+955 silly gunzTarPerm extractEntry Makefile
+956 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy/package.json
+957 silly gunzTarPerm extractEntry History.md
+958 info preinstall destroy@1.0.4
+959 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy/package.json
+960 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag/package.json
+961 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh/package.json
+962 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/package.json
+963 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser/package.json
+964 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy/package.json
+965 info preinstall fresh@0.3.0
+966 info preinstall etag@1.7.0
+967 info preinstall http-errors@1.5.0
+968 info preinstall range-parser@1.2.0
+969 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/package.json
+970 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh/package.json
+971 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag/package.json
+972 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/package.json
+973 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser/package.json
+974 silly install resolved []
+975 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+976 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+977 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses/package.json
+978 info preinstall on-finished@2.3.0
+979 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms/package.json
+980 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh/package.json
+981 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/package.json
+982 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag/package.json
+983 silly prepareForInstallMany adding inherits@2.0.1 from http-errors dependencies
+984 silly prepareForInstallMany adding setprototypeof@1.0.1 from http-errors dependencies
+985 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/package.json
+986 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser/package.json
+987 info preinstall statuses@1.3.0
+988 info linkStuff destroy@1.0.4
+989 silly linkStuff destroy@1.0.4 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+990 info preinstall ms@0.7.1
+991 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses/package.json
+992 silly install resolved []
+993 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+994 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+995 silly prepareForInstallMany adding ee-first@1.1.1 from on-finished dependencies
+996 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/package.json
+997 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms/package.json
+998 silly install resolved []
+999 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+1000 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+1001 silly install resolved []
+1002 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+1003 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+1004 silly cache add args [ 'inherits@2.0.1', null ]
+1005 verbose cache add spec inherits@2.0.1
+1006 silly cache add args [ 'setprototypeof@1.0.1', null ]
+1007 verbose cache add spec setprototypeof@1.0.1
+1008 silly cache add parsed spec Result {
+1008 silly cache add   raw: 'inherits@2.0.1',
+1008 silly cache add   scope: null,
+1008 silly cache add   name: 'inherits',
+1008 silly cache add   rawSpec: '2.0.1',
+1008 silly cache add   spec: '2.0.1',
+1008 silly cache add   type: 'version' }
+1009 silly addNamed inherits@2.0.1
+1010 verbose addNamed "2.0.1" is a plain semver version for inherits
+1011 silly mapToRegistry name inherits
+1012 silly mapToRegistry using default registry
+1013 silly mapToRegistry registry https://registry.npmjs.org/
+1014 silly mapToRegistry data Result {
+1014 silly mapToRegistry   raw: 'inherits',
+1014 silly mapToRegistry   scope: null,
+1014 silly mapToRegistry   name: 'inherits',
+1014 silly mapToRegistry   rawSpec: '',
+1014 silly mapToRegistry   spec: 'latest',
+1014 silly mapToRegistry   type: 'tag' }
+1015 silly mapToRegistry uri https://registry.npmjs.org/inherits
+1016 verbose addNameVersion registry:https://registry.npmjs.org/inherits not in flight; fetching
+1017 silly cache add parsed spec Result {
+1017 silly cache add   raw: 'setprototypeof@1.0.1',
+1017 silly cache add   scope: null,
+1017 silly cache add   name: 'setprototypeof',
+1017 silly cache add   rawSpec: '1.0.1',
+1017 silly cache add   spec: '1.0.1',
+1017 silly cache add   type: 'version' }
+1018 silly addNamed setprototypeof@1.0.1
+1019 verbose addNamed "1.0.1" is a plain semver version for setprototypeof
+1020 silly mapToRegistry name setprototypeof
+1021 silly mapToRegistry using default registry
+1022 silly mapToRegistry registry https://registry.npmjs.org/
+1023 silly mapToRegistry data Result {
+1023 silly mapToRegistry   raw: 'setprototypeof',
+1023 silly mapToRegistry   scope: null,
+1023 silly mapToRegistry   name: 'setprototypeof',
+1023 silly mapToRegistry   rawSpec: '',
+1023 silly mapToRegistry   spec: 'latest',
+1023 silly mapToRegistry   type: 'tag' }
+1024 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
+1025 verbose addNameVersion registry:https://registry.npmjs.org/setprototypeof not in flight; fetching
+1026 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses/package.json
+1027 info linkStuff fresh@0.3.0
+1028 silly linkStuff fresh@0.3.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1029 info linkStuff etag@1.7.0
+1030 silly linkStuff etag@1.7.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1031 info linkStuff range-parser@1.2.0
+1032 silly linkStuff range-parser@1.2.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1033 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms/package.json
+1034 verbose linkBins destroy@1.0.4
+1035 verbose linkMans destroy@1.0.4
+1036 verbose rebuildBundles destroy@1.0.4
+1037 info install destroy@1.0.4
+1038 verbose request uri https://registry.npmjs.org/inherits
+1039 verbose request no auth needed
+1040 info attempt registry request try #1 at 11:36:22 AM
+1041 verbose etag "DW5AARMI0EU78WM0DVWHCUX08"
+1042 http request GET https://registry.npmjs.org/inherits
+1043 verbose request uri https://registry.npmjs.org/setprototypeof
+1044 verbose request no auth needed
+1045 info attempt registry request try #1 at 11:36:22 AM
+1046 verbose etag "CJTDSET8SGVXM6LF4HLS3YM9C"
+1047 http request GET https://registry.npmjs.org/setprototypeof
+1048 silly cache add args [ 'ee-first@1.1.1', null ]
+1049 verbose cache add spec ee-first@1.1.1
+1050 silly cache add parsed spec Result {
+1050 silly cache add   raw: 'ee-first@1.1.1',
+1050 silly cache add   scope: null,
+1050 silly cache add   name: 'ee-first',
+1050 silly cache add   rawSpec: '1.1.1',
+1050 silly cache add   spec: '1.1.1',
+1050 silly cache add   type: 'version' }
+1051 silly addNamed ee-first@1.1.1
+1052 verbose addNamed "1.1.1" is a plain semver version for ee-first
+1053 silly mapToRegistry name ee-first
+1054 silly mapToRegistry using default registry
+1055 silly mapToRegistry registry https://registry.npmjs.org/
+1056 silly mapToRegistry data Result {
+1056 silly mapToRegistry   raw: 'ee-first',
+1056 silly mapToRegistry   scope: null,
+1056 silly mapToRegistry   name: 'ee-first',
+1056 silly mapToRegistry   rawSpec: '',
+1056 silly mapToRegistry   spec: 'latest',
+1056 silly mapToRegistry   type: 'tag' }
+1057 silly mapToRegistry uri https://registry.npmjs.org/ee-first
+1058 verbose addNameVersion registry:https://registry.npmjs.org/ee-first not in flight; fetching
+1059 info postinstall destroy@1.0.4
+1060 silly install resolved []
+1061 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+1062 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+1063 silly install resolved []
+1064 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+1065 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+1066 verbose unlock done using /Users/manjula/.npm/_locks/destroy-b8f3f316ea3bddc9.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/destroy
+1067 verbose request uri https://registry.npmjs.org/ee-first
+1068 verbose request no auth needed
+1069 info attempt registry request try #1 at 11:36:22 AM
+1070 verbose etag "3ZYG9XA9BYU1KE2TX5MRV6U1N"
+1071 http request GET https://registry.npmjs.org/ee-first
+1072 verbose linkBins fresh@0.3.0
+1073 verbose linkMans fresh@0.3.0
+1074 verbose rebuildBundles fresh@0.3.0
+1075 info linkStuff statuses@1.3.0
+1076 silly linkStuff statuses@1.3.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1077 info install fresh@0.3.0
+1078 verbose linkBins etag@1.7.0
+1079 verbose linkMans etag@1.7.0
+1080 verbose rebuildBundles etag@1.7.0
+1081 verbose linkBins range-parser@1.2.0
+1082 verbose linkMans range-parser@1.2.0
+1083 verbose rebuildBundles range-parser@1.2.0
+1084 info install etag@1.7.0
+1085 info install range-parser@1.2.0
+1086 info linkStuff ms@0.7.1
+1087 silly linkStuff ms@0.7.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1088 info postinstall fresh@0.3.0
+1089 info postinstall etag@1.7.0
+1090 info postinstall range-parser@1.2.0
+1091 verbose unlock done using /Users/manjula/.npm/_locks/fresh-619eb2424f738783.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/fresh
+1092 verbose unlock done using /Users/manjula/.npm/_locks/etag-54d741c4aefeee56.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/etag
+1093 verbose unlock done using /Users/manjula/.npm/_locks/range-parser-bb3a70c7a02b0776.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/range-parser
+1094 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime/package.json
+1095 verbose linkBins statuses@1.3.0
+1096 verbose linkMans statuses@1.3.0
+1097 verbose rebuildBundles statuses@1.3.0
+1098 info install statuses@1.3.0
+1099 verbose linkBins ms@0.7.1
+1100 verbose linkMans ms@0.7.1
+1101 verbose rebuildBundles ms@0.7.1
+1102 info install ms@0.7.1
+1103 info postinstall statuses@1.3.0
+1104 info preinstall mime@1.3.4
+1105 info postinstall ms@0.7.1
+1106 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime/package.json
+1107 verbose unlock done using /Users/manjula/.npm/_locks/statuses-2b1e7d82d967e1e8.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/statuses
+1108 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd/package.json
+1109 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug/package.json
+1110 verbose unlock done using /Users/manjula/.npm/_locks/ms-3e697ebfb5453162.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/ms
+1111 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime/package.json
+1112 info preinstall depd@1.1.0
+1113 info preinstall debug@2.2.0
+1114 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd/package.json
+1115 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug/package.json
+1116 silly install resolved []
+1117 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+1118 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+1119 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd/package.json
+1120 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug/package.json
+1121 info linkStuff mime@1.3.4
+1122 silly linkStuff mime@1.3.4 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1123 silly install resolved []
+1124 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+1125 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+1126 silly install resolved []
+1127 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+1128 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+1129 info linkStuff debug@2.2.0
+1130 silly linkStuff debug@2.2.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1131 info linkStuff depd@1.1.0
+1132 silly linkStuff depd@1.1.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1133 verbose linkBins mime@1.3.4
+1134 verbose link bins [ { mime: 'cli.js' },
+1134 verbose link bins   '/Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/.bin',
+1134 verbose link bins   false ]
+1135 verbose linkMans mime@1.3.4
+1136 verbose rebuildBundles mime@1.3.4
+1137 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/.bin/mime is being purged
+1138 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/.bin/mime
+1139 info install mime@1.3.4
+1140 verbose linkBins debug@2.2.0
+1141 verbose linkMans debug@2.2.0
+1142 verbose rebuildBundles debug@2.2.0
+1143 info install debug@2.2.0
+1144 verbose linkBins depd@1.1.0
+1145 verbose linkMans depd@1.1.0
+1146 verbose rebuildBundles depd@1.1.0
+1147 info postinstall mime@1.3.4
+1148 info install depd@1.1.0
+1149 info postinstall debug@2.2.0
+1150 info postinstall depd@1.1.0
+1151 verbose unlock done using /Users/manjula/.npm/_locks/mime-0b5755e8d41d37f6.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/mime
+1152 verbose unlock done using /Users/manjula/.npm/_locks/debug-e80606dba91e6674.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/debug
+1153 verbose unlock done using /Users/manjula/.npm/_locks/depd-6450631665233346.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/depd
+1154 http 304 https://registry.npmjs.org/inherits
+1155 verbose headers { date: 'Wed, 17 Aug 2016 06:06:23 GMT',
+1155 verbose headers   via: '1.1 varnish',
+1155 verbose headers   'cache-control': 'max-age=300',
+1155 verbose headers   etag: '"DW5AARMI0EU78WM0DVWHCUX08"',
+1155 verbose headers   age: '166',
+1155 verbose headers   connection: 'keep-alive',
+1155 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+1155 verbose headers   'x-cache': 'HIT',
+1155 verbose headers   'x-cache-hits': '142',
+1155 verbose headers   'x-timer': 'S1471413983.190495,VS0,VE0',
+1155 verbose headers   vary: 'Accept-Encoding' }
+1156 silly get cb [ 304,
+1156 silly get   { date: 'Wed, 17 Aug 2016 06:06:23 GMT',
+1156 silly get     via: '1.1 varnish',
+1156 silly get     'cache-control': 'max-age=300',
+1156 silly get     etag: '"DW5AARMI0EU78WM0DVWHCUX08"',
+1156 silly get     age: '166',
+1156 silly get     connection: 'keep-alive',
+1156 silly get     'x-served-by': 'cache-sin6927-SIN',
+1156 silly get     'x-cache': 'HIT',
+1156 silly get     'x-cache-hits': '142',
+1156 silly get     'x-timer': 'S1471413983.190495,VS0,VE0',
+1156 silly get     vary: 'Accept-Encoding' } ]
+1157 verbose etag https://registry.npmjs.org/inherits from cache
+1158 verbose get saving inherits to /Users/manjula/.npm/registry.npmjs.org/inherits/.cache.json
+1159 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+1160 http 304 https://registry.npmjs.org/setprototypeof
+1161 verbose headers { date: 'Wed, 17 Aug 2016 06:06:23 GMT',
+1161 verbose headers   via: '1.1 varnish',
+1161 verbose headers   'cache-control': 'max-age=300',
+1161 verbose headers   etag: '"CJTDSET8SGVXM6LF4HLS3YM9C"',
+1161 verbose headers   age: '202',
+1161 verbose headers   connection: 'keep-alive',
+1161 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+1161 verbose headers   'x-cache': 'HIT',
+1161 verbose headers   'x-cache-hits': '13',
+1161 verbose headers   'x-timer': 'S1471413983.188345,VS0,VE0',
+1161 verbose headers   vary: 'Accept-Encoding' }
+1162 silly get cb [ 304,
+1162 silly get   { date: 'Wed, 17 Aug 2016 06:06:23 GMT',
+1162 silly get     via: '1.1 varnish',
+1162 silly get     'cache-control': 'max-age=300',
+1162 silly get     etag: '"CJTDSET8SGVXM6LF4HLS3YM9C"',
+1162 silly get     age: '202',
+1162 silly get     connection: 'keep-alive',
+1162 silly get     'x-served-by': 'cache-sin6924-SIN',
+1162 silly get     'x-cache': 'HIT',
+1162 silly get     'x-cache-hits': '13',
+1162 silly get     'x-timer': 'S1471413983.188345,VS0,VE0',
+1162 silly get     vary: 'Accept-Encoding' } ]
+1163 verbose etag https://registry.npmjs.org/setprototypeof from cache
+1164 verbose get saving setprototypeof to /Users/manjula/.npm/registry.npmjs.org/setprototypeof/.cache.json
+1165 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+1166 silly cache afterAdd inherits@2.0.1
+1167 verbose afterAdd /Users/manjula/.npm/inherits/2.0.1/package/package.json not in flight; writing
+1168 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+1169 silly cache afterAdd setprototypeof@1.0.1
+1170 verbose afterAdd /Users/manjula/.npm/setprototypeof/1.0.1/package/package.json not in flight; writing
+1171 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+1172 http 304 https://registry.npmjs.org/ee-first
+1173 verbose headers { date: 'Wed, 17 Aug 2016 06:06:23 GMT',
+1173 verbose headers   via: '1.1 varnish',
+1173 verbose headers   'cache-control': 'max-age=300',
+1173 verbose headers   etag: '"3ZYG9XA9BYU1KE2TX5MRV6U1N"',
+1173 verbose headers   age: '182',
+1173 verbose headers   connection: 'keep-alive',
+1173 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+1173 verbose headers   'x-cache': 'HIT',
+1173 verbose headers   'x-cache-hits': '12',
+1173 verbose headers   'x-timer': 'S1471413983.201455,VS0,VE0',
+1173 verbose headers   vary: 'Accept-Encoding' }
+1174 silly get cb [ 304,
+1174 silly get   { date: 'Wed, 17 Aug 2016 06:06:23 GMT',
+1174 silly get     via: '1.1 varnish',
+1174 silly get     'cache-control': 'max-age=300',
+1174 silly get     etag: '"3ZYG9XA9BYU1KE2TX5MRV6U1N"',
+1174 silly get     age: '182',
+1174 silly get     connection: 'keep-alive',
+1174 silly get     'x-served-by': 'cache-sin6926-SIN',
+1174 silly get     'x-cache': 'HIT',
+1174 silly get     'x-cache-hits': '12',
+1174 silly get     'x-timer': 'S1471413983.201455,VS0,VE0',
+1174 silly get     vary: 'Accept-Encoding' } ]
+1175 verbose etag https://registry.npmjs.org/ee-first from cache
+1176 verbose get saving ee-first to /Users/manjula/.npm/registry.npmjs.org/ee-first/.cache.json
+1177 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+1178 verbose afterAdd /Users/manjula/.npm/inherits/2.0.1/package/package.json written
+1179 verbose afterAdd /Users/manjula/.npm/setprototypeof/1.0.1/package/package.json written
+1180 silly install resolved [ { name: 'inherits',
+1180 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+1180 silly install resolved     version: '2.0.1',
+1180 silly install resolved     keywords:
+1180 silly install resolved      [ 'inheritance',
+1180 silly install resolved        'class',
+1180 silly install resolved        'klass',
+1180 silly install resolved        'oop',
+1180 silly install resolved        'object-oriented',
+1180 silly install resolved        'inherits',
+1180 silly install resolved        'browser',
+1180 silly install resolved        'browserify' ],
+1180 silly install resolved     main: './inherits.js',
+1180 silly install resolved     browser: './inherits_browser.js',
+1180 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+1180 silly install resolved     license: 'ISC',
+1180 silly install resolved     scripts: { test: 'node test' },
+1180 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+1180 silly install resolved     _id: 'inherits@2.0.1',
+1180 silly install resolved     dist:
+1180 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+1180 silly install resolved        tarball: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+1180 silly install resolved     _from: 'inherits@2.0.1',
+1180 silly install resolved     _npmVersion: '1.3.8',
+1180 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1180 silly install resolved     maintainers: [ [Object] ],
+1180 silly install resolved     directories: {},
+1180 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+1180 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+1180 silly install resolved     readme: 'ERROR: No README data found!',
+1180 silly install resolved     homepage: 'https://github.com/isaacs/inherits#readme' },
+1180 silly install resolved   { name: 'setprototypeof',
+1180 silly install resolved     version: '1.0.1',
+1180 silly install resolved     description: 'A small polyfill for Object.setprototypeof',
+1180 silly install resolved     main: 'index.js',
+1180 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+1180 silly install resolved     repository:
+1180 silly install resolved      { type: 'git',
+1180 silly install resolved        url: 'git+https://github.com/wesleytodd/setprototypeof.git' },
+1180 silly install resolved     keywords: [ 'polyfill', 'object', 'setprototypeof' ],
+1180 silly install resolved     author: { name: 'Wes Todd' },
+1180 silly install resolved     license: 'ISC',
+1180 silly install resolved     bugs: { url: 'https://github.com/wesleytodd/setprototypeof/issues' },
+1180 silly install resolved     homepage: 'https://github.com/wesleytodd/setprototypeof',
+1180 silly install resolved     gitHead: '1e3d0cde6b7f4a9fba10cd28e62b200c9d8f899f',
+1180 silly install resolved     _id: 'setprototypeof@1.0.1',
+1180 silly install resolved     _shasum: '52009b27888c4dc48f591949c0a8275834c1ca7e',
+1180 silly install resolved     _from: 'setprototypeof@1.0.1',
+1180 silly install resolved     _npmVersion: '3.3.6',
+1180 silly install resolved     _nodeVersion: '5.0.0',
+1180 silly install resolved     _npmUser: { name: 'wesleytodd', email: 'wes@wesleytodd.com' },
+1180 silly install resolved     dist:
+1180 silly install resolved      { shasum: '52009b27888c4dc48f591949c0a8275834c1ca7e',
+1180 silly install resolved        tarball: 'https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.1.tgz' },
+1180 silly install resolved     maintainers: [ [Object] ],
+1180 silly install resolved     _npmOperationalInternal:
+1180 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+1180 silly install resolved        tmp: 'tmp/setprototypeof-1.0.1.tgz_1454803015119_0.7522649802267551' },
+1180 silly install resolved     directories: {},
+1180 silly install resolved     _resolved: 'https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.1.tgz',
+1180 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1181 info install inherits@2.0.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+1182 info install setprototypeof@1.0.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+1183 info installOne inherits@2.0.1
+1184 verbose installOne of inherits to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors not in flight; installing
+1185 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+1186 info installOne setprototypeof@1.0.1
+1187 verbose installOne of setprototypeof to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors not in flight; installing
+1188 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+1189 verbose lock using /Users/manjula/.npm/_locks/inherits-a9b98df77f4ce1eb.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1190 verbose lock using /Users/manjula/.npm/_locks/setprototypeof-2b0c7f30e20aae4a.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1191 silly install write writing inherits 2.0.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1192 silly install write writing setprototypeof 1.0.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1193 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1194 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1195 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits is being purged from base /Users/manjula/workspace/drag_and_drop
+1196 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1197 verbose tar unpack /Users/manjula/.npm/inherits/2.0.1/package.tgz
+1198 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1199 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits is being purged
+1200 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1201 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof is being purged from base /Users/manjula/workspace/drag_and_drop
+1202 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1203 silly gunzTarPerm modes [ '755', '644' ]
+1204 verbose tar unpack /Users/manjula/.npm/setprototypeof/1.0.1/package.tgz
+1205 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1206 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof is being purged
+1207 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1208 silly gunzTarPerm modes [ '755', '644' ]
+1209 silly cache afterAdd ee-first@1.1.1
+1210 verbose afterAdd /Users/manjula/.npm/ee-first/1.1.1/package/package.json not in flight; writing
+1211 verbose correctMkdir /Users/manjula/.npm correctMkdir not in flight; initializing
+1212 silly gunzTarPerm extractEntry package.json
+1213 silly gunzTarPerm extractEntry package.json
+1214 verbose afterAdd /Users/manjula/.npm/ee-first/1.1.1/package/package.json written
+1215 silly install resolved [ { name: 'ee-first',
+1215 silly install resolved     description: 'return the first event in a set of ee/event pairs',
+1215 silly install resolved     version: '1.1.1',
+1215 silly install resolved     author:
+1215 silly install resolved      { name: 'Jonathan Ong',
+1215 silly install resolved        email: 'me@jongleberry.com',
+1215 silly install resolved        url: 'http://jongleberry.com' },
+1215 silly install resolved     contributors: [ [Object] ],
+1215 silly install resolved     license: 'MIT',
+1215 silly install resolved     repository:
+1215 silly install resolved      { type: 'git',
+1215 silly install resolved        url: 'git+https://github.com/jonathanong/ee-first.git' },
+1215 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5' },
+1215 silly install resolved     files: [ 'index.js', 'LICENSE' ],
+1215 silly install resolved     scripts:
+1215 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+1215 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1215 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+1215 silly install resolved     gitHead: '512e0ce4cc3643f603708f965a97b61b1a9c0441',
+1215 silly install resolved     bugs: { url: 'https://github.com/jonathanong/ee-first/issues' },
+1215 silly install resolved     homepage: 'https://github.com/jonathanong/ee-first',
+1215 silly install resolved     _id: 'ee-first@1.1.1',
+1215 silly install resolved     _shasum: '590c61156b0ae2f4f0255732a158b266bc56b21d',
+1215 silly install resolved     _from: 'ee-first@1.1.1',
+1215 silly install resolved     _npmVersion: '1.4.28',
+1215 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1215 silly install resolved     maintainers: [ [Object], [Object] ],
+1215 silly install resolved     dist:
+1215 silly install resolved      { shasum: '590c61156b0ae2f4f0255732a158b266bc56b21d',
+1215 silly install resolved        tarball: 'https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz' },
+1215 silly install resolved     directories: {},
+1215 silly install resolved     _resolved: 'https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz',
+1215 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1216 info install ee-first@1.1.1 into /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+1217 info installOne ee-first@1.1.1
+1218 verbose installOne of ee-first to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished not in flight; installing
+1219 verbose correctMkdir /Users/manjula/.npm/_locks correctMkdir not in flight; initializing
+1220 silly gunzTarPerm extractEntry README.md
+1221 silly gunzTarPerm extractEntry LICENSE
+1222 verbose lock using /Users/manjula/.npm/_locks/ee-first-03435c793f6924bb.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1223 silly gunzTarPerm extractEntry README.md
+1224 silly gunzTarPerm extractEntry LICENSE
+1225 silly install write writing ee-first 1.1.1 to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1226 verbose unbuild node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1227 silly gunzTarPerm extractEntry inherits.js
+1228 silly gunzTarPerm extractEntry inherits_browser.js
+1229 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first is being purged from base /Users/manjula/workspace/drag_and_drop
+1230 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1231 verbose tar unpack /Users/manjula/.npm/ee-first/1.1.1/package.tgz
+1232 verbose tar unpacking to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1233 silly gentlyRm /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first is being purged
+1234 verbose gentlyRm don't care about contents; nuking /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1235 silly gunzTarPerm extractEntry index.js
+1236 silly gunzTarPerm modes [ '755', '644' ]
+1237 silly gunzTarPerm extractEntry test.js
+1238 silly gunzTarPerm extractEntry package.json
+1239 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1240 silly gunzTarPerm extractEntry README.md
+1241 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1242 silly gunzTarPerm extractEntry LICENSE
+1243 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1244 silly gunzTarPerm extractEntry index.js
+1245 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1246 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/package.json
+1247 info preinstall setprototypeof@1.0.1
+1248 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/package.json
+1249 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/package.json
+1250 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json
+1251 silly install resolved []
+1252 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1253 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1254 info preinstall inherits@2.0.1
+1255 info linkStuff setprototypeof@1.0.1
+1256 silly linkStuff setprototypeof@1.0.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules as its parent node_modules
+1257 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json
+1258 verbose write writing to /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/package.json
+1259 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json
+1260 verbose linkBins setprototypeof@1.0.1
+1261 verbose linkMans setprototypeof@1.0.1
+1262 verbose rebuildBundles setprototypeof@1.0.1
+1263 info preinstall ee-first@1.1.1
+1264 info install setprototypeof@1.0.1
+1265 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/package.json
+1266 info postinstall setprototypeof@1.0.1
+1267 silly install resolved []
+1268 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1269 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1270 verbose unlock done using /Users/manjula/.npm/_locks/setprototypeof-2b0c7f30e20aae4a.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof
+1271 verbose readDependencies loading dependencies from /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/package.json
+1272 info linkStuff inherits@2.0.1
+1273 silly linkStuff inherits@2.0.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules as its parent node_modules
+1274 silly install resolved []
+1275 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1276 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1277 verbose linkBins inherits@2.0.1
+1278 verbose linkMans inherits@2.0.1
+1279 verbose rebuildBundles inherits@2.0.1
+1280 info install inherits@2.0.1
+1281 info linkStuff ee-first@1.1.1
+1282 silly linkStuff ee-first@1.1.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules as its parent node_modules
+1283 info postinstall inherits@2.0.1
+1284 verbose unlock done using /Users/manjula/.npm/_locks/inherits-a9b98df77f4ce1eb.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits
+1285 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+1286 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+1287 verbose linkBins ee-first@1.1.1
+1288 verbose linkMans ee-first@1.1.1
+1289 verbose rebuildBundles ee-first@1.1.1
+1290 info linkStuff http-errors@1.5.0
+1291 silly linkStuff http-errors@1.5.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1292 info install ee-first@1.1.1
+1293 info postinstall ee-first@1.1.1
+1294 verbose unlock done using /Users/manjula/.npm/_locks/ee-first-03435c793f6924bb.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first
+1295 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+1296 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+1297 verbose linkBins http-errors@1.5.0
+1298 verbose linkMans http-errors@1.5.0
+1299 verbose rebuildBundles http-errors@1.5.0
+1300 verbose rebuildBundles [ 'inherits', 'setprototypeof' ]
+1301 info install http-errors@1.5.0
+1302 info linkStuff on-finished@2.3.0
+1303 silly linkStuff on-finished@2.3.0 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules as its parent node_modules
+1304 info postinstall http-errors@1.5.0
+1305 verbose unlock done using /Users/manjula/.npm/_locks/http-errors-bf326df3b4044a7d.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/http-errors
+1306 verbose linkBins on-finished@2.3.0
+1307 verbose linkMans on-finished@2.3.0
+1308 verbose rebuildBundles on-finished@2.3.0
+1309 verbose rebuildBundles [ 'ee-first' ]
+1310 info install on-finished@2.3.0
+1311 info postinstall on-finished@2.3.0
+1312 verbose unlock done using /Users/manjula/.npm/_locks/on-finished-a6a42ce032d1587c.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send/node_modules/on-finished
+1313 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+1314 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+1315 info linkStuff send@0.14.1
+1316 silly linkStuff send@0.14.1 has /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules as its parent node_modules
+1317 verbose linkBins send@0.14.1
+1318 verbose linkMans send@0.14.1
+1319 verbose rebuildBundles send@0.14.1
+1320 verbose rebuildBundles [ '.bin',
+1320 verbose rebuildBundles   'debug',
+1320 verbose rebuildBundles   'depd',
+1320 verbose rebuildBundles   'destroy',
+1320 verbose rebuildBundles   'etag',
+1320 verbose rebuildBundles   'fresh',
+1320 verbose rebuildBundles   'http-errors',
+1320 verbose rebuildBundles   'mime',
+1320 verbose rebuildBundles   'ms',
+1320 verbose rebuildBundles   'on-finished',
+1320 verbose rebuildBundles   'range-parser',
+1320 verbose rebuildBundles   'statuses' ]
+1321 info install send@0.14.1
+1322 info postinstall send@0.14.1
+1323 verbose unlock done using /Users/manjula/.npm/_locks/send-cbca43e4a9a33e77.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static/node_modules/send
+1324 verbose about to build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+1325 info build /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+1326 info linkStuff serve-static@1.11.1
+1327 silly linkStuff serve-static@1.11.1 has /Users/manjula/workspace/drag_and_drop/node_modules as its parent node_modules
+1328 verbose linkBins serve-static@1.11.1
+1329 verbose linkMans serve-static@1.11.1
+1330 verbose rebuildBundles serve-static@1.11.1
+1331 verbose rebuildBundles [ 'encodeurl', 'escape-html', 'parseurl', 'send' ]
+1332 info install serve-static@1.11.1
+1333 info postinstall serve-static@1.11.1
+1334 verbose unlock done using /Users/manjula/.npm/_locks/serve-static-7ab4eb64f412f593.lock for /Users/manjula/workspace/drag_and_drop/node_modules/serve-static
+1335 verbose validateInstall loading /Users/manjula/workspace/drag_and_drop/package.json for validation
+1336 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+1336 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+1336 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+1336 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+1336 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1336 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1336 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1336 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1336 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1336 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1336 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1337 verbose cwd /Users/manjula/workspace/drag_and_drop
+1338 error Darwin 15.3.0
+1339 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "serve-static"
+1340 error node v4.4.5
+1341 error npm  v2.15.5
+1342 error code EPEERINVALID
+1343 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+1343 error peerinvalid Peer grunt-sass@1.2.1 wants grunt@>=0.4.0
+1343 error peerinvalid Peer grunt-contrib-sass@1.0.0 wants grunt@>=0.4.0
+1343 error peerinvalid Peer grunt-contrib-connect@1.0.2 wants grunt@>=0.4.0
+1343 error peerinvalid Peer grunt-angular-builder@1.0.0-beta3 wants grunt@~0.4.1
+1344 verbose exit [ 1, true ]
